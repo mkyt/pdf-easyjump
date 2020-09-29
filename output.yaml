@@ -1,0 +1,3512 @@
+page_labels:
+- start: 1
+  style: none
+  prefix: Cover
+- start: 2
+  style: none
+  prefix: BackCover
+- start: 3
+  style: r
+- start: 19
+  style: D
+outlines:
+- title: Copyright
+  page: 4
+  options: /XYZ , None , 607.5 , None
+- title: Table of Contents
+  page: 5
+  options: /XYZ , None , 585.65002 , None
+- title: Preface
+  page: 13
+  options: /XYZ , None , 584.73499 , None
+  children:
+  - title: Who This Book Is For
+    page: 14
+    options: /XYZ , None , 467.31 , None
+  - title: Who This Book Is Not For
+    page: 14
+    options: /XYZ , None , 259.16354 , None
+  - title: Conventions Used in This Book
+    page: 15
+    options: /XYZ , None , 593.31 , None
+  - title: Online Code Examples
+    page: 15
+    options: /XYZ , None , 270.55423 , None
+  - title: Using Code Examples
+    page: 15
+    options: /XYZ , None , 194.40781 , None
+  - title: Safari® Books Online
+    page: 16
+    options: /XYZ , None , 480.51001 , None
+  - title: How to Contact Us
+    page: 16
+    options: /XYZ , None , 241.16354 , None
+  - title: Acknowledgments
+    page: 17
+    options: /XYZ , None , 481.10999 , None
+    children:
+    - title: David Beazley’s Acknowledgments
+      page: 17
+      options: /XYZ , None , 355.66446 , None
+    - title: Brian Jones’ Acknowledgments
+      page: 18
+      options: /XYZ , None , 594.41089 , None
+- title: Chapter 1. Data Structures and Algorithms
+  page: 19
+  options: /XYZ , None , 588.58502 , None
+  children:
+  - title: 1.1. Unpacking a Sequence into Separate Variables
+    page: 19
+    options: /XYZ , None , 339.14047 , None
+    children:
+    - title: Problem
+      page: 19
+      options: /XYZ , None , 308.64496 , None
+    - title: Solution
+      page: 19
+      options: /XYZ , None , 249.84744 , None
+    - title: Discussion
+      page: 20
+      options: /XYZ , None , 365.81088 , None
+  - title: 1.2. Unpacking Elements from Iterables of Arbitrary Length
+    page: 21
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 21
+      options: /XYZ , None , 559.59808 , None
+    - title: Solution
+      page: 21
+      options: /XYZ , None , 500.8006 , None
+    - title: Discussion
+      page: 22
+      options: /XYZ , None , 543.41089 , None
+  - title: 1.3. Keeping the Last N Items
+    page: 23
+    options: /XYZ , None , 248.30994 , None
+    children:
+    - title: Problem
+      page: 23
+      options: /XYZ , None , 217.81442 , None
+    - title: Solution
+      page: 23
+      options: /XYZ , None , 159.01691 , None
+    - title: Discussion
+      page: 24
+      options: /XYZ , None , 421.01086 , None
+  - title: 1.4. Finding the Largest or Smallest N Items
+    page: 25
+    options: /XYZ , None , 460.10999 , None
+    children:
+    - title: Problem
+      page: 25
+      options: /XYZ , None , 429.61447 , None
+    - title: Solution
+      page: 25
+      options: /XYZ , None , 383.41696 , None
+    - title: Discussion
+      page: 25
+      options: /XYZ , None , 117.55273 , None
+  - title: 1.5. Implementing a Priority Queue
+    page: 26
+    options: /XYZ , None , 186.64438 , None
+    children:
+    - title: Problem
+      page: 26
+      options: /XYZ , None , 156.14886 , None
+    - title: Solution
+      page: 27
+      options: /XYZ , None , 607.5 , None
+    - title: Discussion
+      page: 27
+      options: /XYZ , None , 148.30276 , None
+  - title: 1.6. Mapping Keys to Multiple Values in a Dictionary
+    page: 29
+    options: /XYZ , None , 509.84351 , None
+    children:
+    - title: Problem
+      page: 29
+      options: /XYZ , None , 479.34799 , None
+    - title: Solution
+      page: 29
+      options: /XYZ , None , 420.55048 , None
+    - title: Discussion
+      page: 30
+      options: /XYZ , None , 393.74487 , None
+  - title: 1.7. Keeping Dictionaries in Order
+    page: 30
+    options: /XYZ , None , 177.17981 , None
+    children:
+    - title: Problem
+      page: 30
+      options: /XYZ , None , 146.6843 , None
+    - title: Solution
+      page: 31
+      options: /XYZ , None , 607.5 , None
+    - title: Discussion
+      page: 31
+      options: /XYZ , None , 312.03644 , None
+  - title: 1.8. Calculating with Dictionaries
+    page: 31
+    options: /XYZ , None , 154.60547 , None
+    children:
+    - title: Problem
+      page: 31
+      options: /XYZ , None , 124.10995 , None
+    - title: Solution
+      page: 32
+      options: /XYZ , None , 607.5 , None
+    - title: Discussion
+      page: 32
+      options: /XYZ , None , 247.90289 , None
+  - title: 1.9. Finding Commonalities in Two Dictionaries
+    page: 33
+    options: /XYZ , None , 253.91086 , None
+    children:
+    - title: Problem
+      page: 33
+      options: /XYZ , None , 223.41534 , None
+    - title: Solution
+      page: 33
+      options: /XYZ , None , 164.61783 , None
+    - title: Discussion
+      page: 34
+      options: /XYZ , None , 333.34436 , None
+  - title: 1.10. Removing Duplicates from a Sequence while Maintaining Order
+    page: 35
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 35
+      options: /XYZ , None , 559.59808 , None
+    - title: Solution
+      page: 35
+      options: /XYZ , None , 500.8006 , None
+    - title: Discussion
+      page: 36
+      options: /XYZ , None , 607.5 , None
+  - title: 1.11. Naming a Slice
+    page: 36
+    options: /XYZ , None , 333.86856 , None
+    children:
+    - title: Problem
+      page: 36
+      options: /XYZ , None , 303.37305 , None
+    - title: Solution
+      page: 36
+      options: /XYZ , None , 244.57553 , None
+    - title: Discussion
+      page: 37
+      options: /XYZ , None , 569.21088 , None
+  - title: 1.12. Determining the Most Frequently Occurring Items in a Sequence
+    page: 38
+    options: /XYZ , None , 572.90997 , None
+    children:
+    - title: Problem
+      page: 38
+      options: /XYZ , None , 525.00806 , None
+    - title: Solution
+      page: 38
+      options: /XYZ , None , 466.21057 , None
+    - title: Discussion
+      page: 38
+      options: /XYZ , None , 246.47992 , None
+  - title: 1.13. Sorting a List of Dictionaries by a Common Key
+    page: 39
+    options: /XYZ , None , 200.11038 , None
+    children:
+    - title: Problem
+      page: 39
+      options: /XYZ , None , 169.61487 , None
+    - title: Solution
+      page: 40
+      options: /XYZ , None , 607.5 , None
+    - title: Discussion
+      page: 40
+      options: /XYZ , None , 132.16925 , None
+  - title: 1.14. Sorting Objects Without Native Comparison Support
+    page: 41
+    options: /XYZ , None , 290.24487 , None
+    children:
+    - title: Problem
+      page: 41
+      options: /XYZ , None , 259.74936 , None
+    - title: Solution
+      page: 41
+      options: /XYZ , None , 200.95184 , None
+    - title: Discussion
+      page: 42
+      options: /XYZ , None , 436.54437 , None
+  - title: 1.15. Grouping Records Together Based on a Field
+    page: 42
+    options: /XYZ , None , 218.51334 , None
+    children:
+    - title: Problem
+      page: 42
+      options: /XYZ , None , 188.01782 , None
+    - title: Solution
+      page: 42
+      options: /XYZ , None , 129.22031 , None
+    - title: Discussion
+      page: 43
+      options: /XYZ , None , 195.34427 , None
+  - title: 1.16. Filtering Sequence Elements
+    page: 44
+    options: /XYZ , None , 377.77698 , None
+    children:
+    - title: Problem
+      page: 44
+      options: /XYZ , None , 347.28146 , None
+    - title: Solution
+      page: 44
+      options: /XYZ , None , 288.48395 , None
+    - title: Discussion
+      page: 45
+      options: /XYZ , None , 315.2114 , None
+  - title: 1.17. Extracting a Subset of a Dictionary
+    page: 46
+    options: /XYZ , None , 188.57736 , None
+    children:
+    - title: Problem
+      page: 46
+      options: /XYZ , None , 158.08185 , None
+    - title: Solution
+      page: 47
+      options: /XYZ , None , 594.41089 , None
+    - title: Discussion
+      page: 47
+      options: /XYZ , None , 399.41339 , None
+  - title: 1.18. Mapping Names to Sequence Elements
+    page: 47
+    options: /XYZ , None , 179.18188 , None
+    children:
+    - title: Problem
+      page: 47
+      options: /XYZ , None , 148.68637 , None
+    - title: Solution
+      page: 48
+      options: /XYZ , None , 607.5 , None
+    - title: Discussion
+      page: 49
+      options: /XYZ , None , 491.14441 , None
+  - title: 1.19. Transforming and Reducing Data at the Same Time
+    page: 50
+    options: /XYZ , None , 445.57697 , None
+    children:
+    - title: Problem
+      page: 50
+      options: /XYZ , None , 415.08148 , None
+    - title: Solution
+      page: 50
+      options: /XYZ , None , 355.61743 , None
+    - title: Discussion
+      page: 51
+      options: /XYZ , None , 563.81091 , None
+  - title: 1.20. Combining Multiple Mappings into a Single Mapping
+    page: 51
+    options: /XYZ , None , 235.51288 , None
+    children:
+    - title: Problem
+      page: 51
+      options: /XYZ , None , 187.61096 , None
+    - title: Solution
+      page: 51
+      options: /XYZ , None , 116.21344 , None
+    - title: Discussion
+      page: 52
+      options: /XYZ , None , 471.87787 , None
+- title: Chapter 2. Strings and Text
+  page: 55
+  options: /XYZ , None , 588.58502 , None
+  children:
+  - title: 2.1. Splitting Strings on Any of Multiple Delimiters
+    page: 55
+    options: /XYZ , None , 327.20697 , None
+    children:
+    - title: Problem
+      page: 55
+      options: /XYZ , None , 296.71146 , None
+    - title: Solution
+      page: 55
+      options: /XYZ , None , 237.91394 , None
+    - title: Discussion
+      page: 55
+      options: /XYZ , None , 118.38336 , None
+  - title: 2.2. Matching Text at the Start or End of a String
+    page: 56
+    options: /XYZ , None , 220.51041 , None
+    children:
+    - title: Problem
+      page: 56
+      options: /XYZ , None , 190.01489 , None
+    - title: Solution
+      page: 56
+      options: /XYZ , None , 131.21738 , None
+    - title: Discussion
+      page: 58
+      options: /XYZ , None , 607.5 , None
+  - title: 2.3. Matching Strings Using Shell Wildcard Patterns
+    page: 58
+    options: /XYZ , None , 279.26852 , None
+    children:
+    - title: Problem
+      page: 58
+      options: /XYZ , None , 248.77301 , None
+    - title: Solution
+      page: 58
+      options: /XYZ , None , 189.30899 , None
+    - title: Discussion
+      page: 59
+      options: /XYZ , None , 161.07773 , None
+  - title: 2.4. Matching and Searching for Text Patterns
+    page: 60
+    options: /XYZ , None , 567.44348 , None
+    children:
+    - title: Problem
+      page: 60
+      options: /XYZ , None , 536.948 , None
+    - title: Solution
+      page: 60
+      options: /XYZ , None , 490.75049 , None
+    - title: Discussion
+      page: 62
+      options: /XYZ , None , 341.67786 , None
+  - title: 2.5. Searching and Replacing Text
+    page: 63
+    options: /XYZ , None , 404.84344 , None
+    children:
+    - title: Problem
+      page: 63
+      options: /XYZ , None , 374.34796 , None
+    - title: Solution
+      page: 63
+      options: /XYZ , None , 328.15045 , None
+    - title: Discussion
+      page: 64
+      options: /XYZ , None , 249.87781 , None
+  - title: 2.6. Searching and Replacing Case-Insensitive Text
+    page: 64
+    options: /XYZ , None , 176.71289 , None
+    children:
+    - title: Problem
+      page: 64
+      options: /XYZ , None , 146.21738 , None
+    - title: Solution
+      page: 65
+      options: /XYZ , None , 607.5 , None
+    - title: Discussion
+      page: 65
+      options: /XYZ , None , 252.76941 , None
+  - title: 2.7. Specifying a Regular Expression for the Shortest Match
+    page: 65
+    options: /XYZ , None , 179.60449 , None
+    children:
+    - title: Problem
+      page: 65
+      options: /XYZ , None , 131.70258 , None
+    - title: Solution
+      page: 66
+      options: /XYZ , None , 607.5 , None
+    - title: Discussion
+      page: 66
+      options: /XYZ , None , 318.03644 , None
+  - title: 2.8. Writing a Regular Expression for Multiline Patterns
+    page: 66
+    options: /XYZ , None , 193.80499 , None
+    children:
+    - title: Problem
+      page: 66
+      options: /XYZ , None , 163.30948 , None
+    - title: Solution
+      page: 67
+      options: /XYZ , None , 607.5 , None
+    - title: Discussion
+      page: 67
+      options: /XYZ , None , 320.63596 , None
+  - title: 2.9. Normalizing Unicode Text to a Standard Representation
+    page: 68
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 68
+      options: /XYZ , None , 559.59808 , None
+    - title: Solution
+      page: 68
+      options: /XYZ , None , 500.8006 , None
+    - title: Discussion
+      page: 69
+      options: /XYZ , None , 382.41141 , None
+  - title: 2.10. Working with Unicode Characters in Regular Expressions
+    page: 70
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 70
+      options: /XYZ , None , 559.59808 , None
+    - title: Solution
+      page: 70
+      options: /XYZ , None , 500.8006 , None
+    - title: Discussion
+      page: 71
+      options: /XYZ , None , 607.5 , None
+  - title: 2.11. Stripping Unwanted Characters from Strings
+    page: 71
+    options: /XYZ , None , 521.73511 , None
+    children:
+    - title: Problem
+      page: 71
+      options: /XYZ , None , 491.23959 , None
+    - title: Solution
+      page: 71
+      options: /XYZ , None , 432.44208 , None
+    - title: Discussion
+      page: 71
+      options: /XYZ , None , 167.71133 , None
+  - title: 2.12. Sanitizing and Cleaning Up Text
+    page: 72
+    options: /XYZ , None , 251.11044 , None
+    children:
+    - title: Problem
+      page: 72
+      options: /XYZ , None , 220.61493 , None
+    - title: Solution
+      page: 72
+      options: /XYZ , None , 161.81741 , None
+    - title: Discussion
+      page: 74
+      options: /XYZ , None , 270.3443 , None
+  - title: 2.13. Aligning Text Strings
+    page: 75
+    options: /XYZ , None , 524.31 , None
+    children:
+    - title: Problem
+      page: 75
+      options: /XYZ , None , 493.81451 , None
+    - title: Solution
+      page: 75
+      options: /XYZ , None , 447.617 , None
+    - title: Discussion
+      page: 76
+      options: /XYZ , None , 396.27789 , None
+  - title: 2.14. Combining and Concatenating Strings
+    page: 76
+    options: /XYZ , None , 200.38037 , None
+    children:
+    - title: Problem
+      page: 76
+      options: /XYZ , None , 169.88486 , None
+    - title: Solution
+      page: 76
+      options: /XYZ , None , 123.68735 , None
+    - title: Discussion
+      page: 77
+      options: /XYZ , None , 185.41174 , None
+  - title: 2.15. Interpolating Variables in Strings
+    page: 79
+    options: /XYZ , None , 282.44348 , None
+    children:
+    - title: Problem
+      page: 79
+      options: /XYZ , None , 251.94797 , None
+    - title: Solution
+      page: 79
+      options: /XYZ , None , 193.15045 , None
+    - title: Discussion
+      page: 81
+      options: /XYZ , None , 502.6109 , None
+  - title: 2.16. Reformatting Text to a Fixed Number of Columns
+    page: 82
+    options: /XYZ , None , 555.51001 , None
+    children:
+    - title: Problem
+      page: 82
+      options: /XYZ , None , 525.01453 , None
+    - title: Solution
+      page: 82
+      options: /XYZ , None , 466.21698 , None
+    - title: Discussion
+      page: 83
+      options: /XYZ , None , 607.5 , None
+  - title: 2.17. Handling HTML and XML Entities in Text
+    page: 83
+    options: /XYZ , None , 441.73557 , None
+    children:
+    - title: Problem
+      page: 83
+      options: /XYZ , None , 411.24005 , None
+    - title: Solution
+      page: 83
+      options: /XYZ , None , 338.50952 , None
+    - title: Discussion
+      page: 84
+      options: /XYZ , None , 371.81091 , None
+  - title: 2.18. Tokenizing Text
+    page: 84
+    options: /XYZ , None , 214.37994 , None
+    children:
+    - title: Problem
+      page: 84
+      options: /XYZ , None , 183.88443 , None
+    - title: Solution
+      page: 84
+      options: /XYZ , None , 137.68692 , None
+    - title: Discussion
+      page: 86
+      options: /XYZ , None , 278.81082 , None
+  - title: 2.19. Writing a Simple Recursive Descent Parser
+    page: 87
+    options: /XYZ , None , 386.17697 , None
+    children:
+    - title: Problem
+      page: 87
+      options: /XYZ , None , 355.68146 , None
+    - title: Solution
+      page: 87
+      options: /XYZ , None , 284.28394 , None
+    - title: Discussion
+      page: 92
+      options: /XYZ , None , 325.01086 , None
+  - title: 2.20. Performing Text Operations on Byte Strings
+    page: 96
+    options: /XYZ , None , 251.24338 , None
+    children:
+    - title: Problem
+      page: 96
+      options: /XYZ , None , 220.74786 , None
+    - title: Solution
+      page: 96
+      options: /XYZ , None , 161.95035 , None
+    - title: Discussion
+      page: 97
+      options: /XYZ , None , 196.01074 , None
+- title: Chapter 3. Numbers, Dates, and Times
+  page: 101
+  options: /XYZ , None , 588.58502 , None
+  children:
+  - title: 3.1. Rounding Numerical Values
+    page: 101
+    options: /XYZ , None , 377.60699 , None
+    children:
+    - title: Problem
+      page: 101
+      options: /XYZ , None , 347.11148 , None
+    - title: Solution
+      page: 101
+      options: /XYZ , None , 300.91397 , None
+    - title: Discussion
+      page: 102
+      options: /XYZ , None , 543.41089 , None
+  - title: 3.2. Performing Accurate Decimal Calculations
+    page: 102
+    options: /XYZ , None , 171.37936 , None
+    children:
+    - title: Problem
+      page: 102
+      options: /XYZ , None , 140.88385 , None
+    - title: Solution
+      page: 103
+      options: /XYZ , None , 607.5 , None
+    - title: Discussion
+      page: 104
+      options: /XYZ , None , 523.01086 , None
+  - title: 3.3. Formatting Numbers for Output
+    page: 105
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 105
+      options: /XYZ , None , 577.00452 , None
+    - title: Solution
+      page: 105
+      options: /XYZ , None , 518.20703 , None
+    - title: Discussion
+      page: 106
+      options: /XYZ , None , 563.81091 , None
+  - title: 3.4. Working with Binary, Octal, and Hexadecimal Integers
+    page: 107
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 107
+      options: /XYZ , None , 559.59808 , None
+    - title: Solution
+      page: 107
+      options: /XYZ , None , 500.8006 , None
+    - title: Discussion
+      page: 108
+      options: /XYZ , None , 485.14438 , None
+  - title: 3.5. Packing and Unpacking Large Integers from Bytes
+    page: 108
+    options: /XYZ , None , 245.77936 , None
+    children:
+    - title: Problem
+      page: 108
+      options: /XYZ , None , 215.28384 , None
+    - title: Solution
+      page: 108
+      options: /XYZ , None , 156.48633 , None
+    - title: Discussion
+      page: 109
+      options: /XYZ , None , 392.07788 , None
+  - title: 3.6. Performing Complex-Valued Math
+    page: 110
+    options: /XYZ , None , 349.04352 , None
+    children:
+    - title: Problem
+      page: 110
+      options: /XYZ , None , 318.548 , None
+    - title: Solution
+      page: 110
+      options: /XYZ , None , 247.15048 , None
+    - title: Discussion
+      page: 111
+      options: /XYZ , None , 307.54431 , None
+  - title: 3.7. Working with Infinity and NaNs
+    page: 112
+    options: /XYZ , None , 484.04346 , None
+    children:
+    - title: Problem
+      page: 112
+      options: /XYZ , None , 453.54797 , None
+    - title: Solution
+      page: 112
+      options: /XYZ , None , 394.75046 , None
+    - title: Discussion
+      page: 112
+      options: /XYZ , None , 138.41974 , None
+  - title: 3.8. Calculating with Fractions
+    page: 114
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 114
+      options: /XYZ , None , 577.00452 , None
+    - title: Solution
+      page: 114
+      options: /XYZ , None , 505.60699 , None
+    - title: Discussion
+      page: 114
+      options: /XYZ , None , 144.34277 , None
+  - title: 3.9. Calculating with Large Numerical Arrays
+    page: 115
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 115
+      options: /XYZ , None , 577.00452 , None
+    - title: Solution
+      page: 115
+      options: /XYZ , None , 530.80701 , None
+    - title: Discussion
+      page: 118
+      options: /XYZ , None , 563.81091 , None
+  - title: 3.10. Performing Matrix and Linear Algebra Calculations
+    page: 118
+    options: /XYZ , None , 414.97946 , None
+    children:
+    - title: Problem
+      page: 118
+      options: /XYZ , None , 384.48395 , None
+    - title: Solution
+      page: 118
+      options: /XYZ , None , 325.68643 , None
+    - title: Discussion
+      page: 119
+      options: /XYZ , None , 191.7442 , None
+  - title: 3.11. Picking Things at Random
+    page: 120
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 120
+      options: /XYZ , None , 577.00452 , None
+    - title: Solution
+      page: 120
+      options: /XYZ , None , 530.80701 , None
+    - title: Discussion
+      page: 121
+      options: /XYZ , None , 329.67789 , None
+  - title: 3.12. Converting Days to Seconds, and Other Basic Time Conversions
+    page: 122
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 122
+      options: /XYZ , None , 559.59808 , None
+    - title: Solution
+      page: 122
+      options: /XYZ , None , 500.8006 , None
+    - title: Discussion
+      page: 123
+      options: /XYZ , None , 482.21088 , None
+  - title: 3.13. Determining Last Friday’s Date
+    page: 124
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 124
+      options: /XYZ , None , 577.00452 , None
+    - title: Solution
+      page: 124
+      options: /XYZ , None , 518.20703 , None
+    - title: Discussion
+      page: 125
+      options: /XYZ , None , 607.5 , None
+  - title: 3.14. Finding the Date Range for the Current Month
+    page: 125
+    options: /XYZ , None , 306.7356 , None
+    children:
+    - title: Problem
+      page: 125
+      options: /XYZ , None , 276.24008 , None
+    - title: Solution
+      page: 125
+      options: /XYZ , None , 217.44257 , None
+    - title: Discussion
+      page: 126
+      options: /XYZ , None , 365.81091 , None
+  - title: 3.15. Converting Strings into Datetimes
+    page: 127
+    options: /XYZ , None , 342.44348 , None
+    children:
+    - title: Problem
+      page: 127
+      options: /XYZ , None , 311.94797 , None
+    - title: Solution
+      page: 127
+      options: /XYZ , None , 252.48395 , None
+    - title: Discussion
+      page: 127
+      options: /XYZ , None , 118.01984 , None
+  - title: 3.16. Manipulating Dates Involving Time Zones
+    page: 128
+    options: /XYZ , None , 282.91043 , None
+    children:
+    - title: Problem
+      page: 128
+      options: /XYZ , None , 252.41492 , None
+    - title: Solution
+      page: 128
+      options: /XYZ , None , 193.6174 , None
+    - title: Discussion
+      page: 129
+      options: /XYZ , None , 148.54416 , None
+- title: Chapter 4. Iterators and Generators
+  page: 131
+  options: /XYZ , None , 588.58502 , None
+  children:
+  - title: 4.1. Manually Consuming an Iterator
+    page: 131
+    options: /XYZ , None , 351.74048 , None
+    children:
+    - title: Problem
+      page: 131
+      options: /XYZ , None , 321.24496 , None
+    - title: Solution
+      page: 131
+      options: /XYZ , None , 261.78094 , None
+    - title: Discussion
+      page: 132
+      options: /XYZ , None , 533.21088 , None
+  - title: 4.2. Delegating Iteration
+    page: 132
+    options: /XYZ , None , 226.0459 , None
+    children:
+    - title: Problem
+      page: 132
+      options: /XYZ , None , 195.55038 , None
+    - title: Solution
+      page: 132
+      options: /XYZ , None , 136.75287 , None
+    - title: Discussion
+      page: 133
+      options: /XYZ , None , 317.07788 , None
+  - title: 4.3. Creating New Iteration Patterns with Generators
+    page: 133
+    options: /XYZ , None , 172.24692 , None
+    children:
+    - title: Problem
+      page: 133
+      options: /XYZ , None , 141.7514 , None
+    - title: Solution
+      page: 134
+      options: /XYZ , None , 607.5 , None
+    - title: Discussion
+      page: 134
+      options: /XYZ , None , 310.36948 , None
+  - title: 4.4. Implementing the Iterator Protocol
+    page: 135
+    options: /XYZ , None , 373.04346 , None
+    children:
+    - title: Problem
+      page: 135
+      options: /XYZ , None , 342.54794 , None
+    - title: Solution
+      page: 135
+      options: /XYZ , None , 283.75043 , None
+    - title: Discussion
+      page: 136
+      options: /XYZ , None , 345.27786 , None
+  - title: 4.5. Iterating in Reverse
+    page: 137
+    options: /XYZ , None , 230.24341 , None
+    children:
+    - title: Problem
+      page: 137
+      options: /XYZ , None , 199.74789 , None
+    - title: Solution
+      page: 137
+      options: /XYZ , None , 153.55038 , None
+    - title: Discussion
+      page: 138
+      options: /XYZ , None , 431.14435 , None
+  - title: 4.6. Defining Generator Functions with Extra State
+    page: 138
+    options: /XYZ , None , 159.97925 , None
+    children:
+    - title: Problem
+      page: 138
+      options: /XYZ , None , 129.48373 , None
+    - title: Solution
+      page: 139
+      options: /XYZ , None , 607.5 , None
+    - title: Discussion
+      page: 139
+      options: /XYZ , None , 274.30289 , None
+  - title: 4.7. Taking a Slice of an Iterator
+    page: 140
+    options: /XYZ , None , 491.30997 , None
+    children:
+    - title: Problem
+      page: 140
+      options: /XYZ , None , 460.81445 , None
+    - title: Solution
+      page: 140
+      options: /XYZ , None , 402.01697 , None
+    - title: Discussion
+      page: 141
+      options: /XYZ , None , 607.5 , None
+  - title: 4.8. Skipping the First Part of an Iterable
+    page: 141
+    options: /XYZ , None , 464.00208 , None
+    children:
+    - title: Problem
+      page: 141
+      options: /XYZ , None , 433.50659 , None
+    - title: Solution
+      page: 141
+      options: /XYZ , None , 374.70908 , None
+    - title: Discussion
+      page: 142
+      options: /XYZ , None , 304.34488 , None
+  - title: 4.9. Iterating Over All Possible Combinations or Permutations
+    page: 143
+    options: /XYZ , None , 472.71002 , None
+    children:
+    - title: Problem
+      page: 143
+      options: /XYZ , None , 424.80811 , None
+    - title: Solution
+      page: 143
+      options: /XYZ , None , 366.01059 , None
+    - title: Discussion
+      page: 145
+      options: /XYZ , None , 607.5 , None
+  - title: 4.10. Iterating Over the Index-Value Pairs of a Sequence
+    page: 145
+    options: /XYZ , None , 508.4686 , None
+    children:
+    - title: Problem
+      page: 145
+      options: /XYZ , None , 477.97308 , None
+    - title: Solution
+      page: 145
+      options: /XYZ , None , 419.1756 , None
+    - title: Discussion
+      page: 146
+      options: /XYZ , None , 364.34485 , None
+  - title: 4.11. Iterating Over Multiple Sequences Simultaneously
+    page: 147
+    options: /XYZ , None , 542.31 , None
+    children:
+    - title: Problem
+      page: 147
+      options: /XYZ , None , 511.81448 , None
+    - title: Solution
+      page: 147
+      options: /XYZ , None , 465.617 , None
+    - title: Discussion
+      page: 148
+      options: /XYZ , None , 472.01086 , None
+  - title: 4.12. Iterating on Items in Separate Containers
+    page: 149
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 149
+      options: /XYZ , None , 577.00452 , None
+    - title: Solution
+      page: 149
+      options: /XYZ , None , 505.60699 , None
+    - title: Discussion
+      page: 150
+      options: /XYZ , None , 607.5 , None
+  - title: 4.13. Creating Data Processing Pipelines
+    page: 150
+    options: /XYZ , None , 385.93555 , None
+    children:
+    - title: Problem
+      page: 150
+      options: /XYZ , None , 355.44006 , None
+    - title: Solution
+      page: 150
+      options: /XYZ , None , 284.04251 , None
+    - title: Discussion
+      page: 152
+      options: /XYZ , None , 412.01093 , None
+  - title: 4.14. Flattening a Nested Sequence
+    page: 153
+    options: /XYZ , None , 421.44397 , None
+    children:
+    - title: Problem
+      page: 153
+      options: /XYZ , None , 390.94849 , None
+    - title: Solution
+      page: 153
+      options: /XYZ , None , 344.75095 , None
+    - title: Discussion
+      page: 154
+      options: /XYZ , None , 471.41089 , None
+  - title: 4.15. Iterating in Sorted Order Over Merged Sorted Iterables
+    page: 154
+    options: /XYZ , None , 199.37988 , None
+    children:
+    - title: Problem
+      page: 154
+      options: /XYZ , None , 151.47797 , None
+    - title: Solution
+      page: 155
+      options: /XYZ , None , 607.5 , None
+    - title: Discussion
+      page: 155
+      options: /XYZ , None , 411.836 , None
+  - title: 4.16. Replacing Infinite while Loops with an Iterator
+    page: 156
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 156
+      options: /XYZ , None , 577.00452 , None
+    - title: Solution
+      page: 156
+      options: /XYZ , None , 504.94049 , None
+    - title: Discussion
+      page: 156
+      options: /XYZ , None , 165.87631 , None
+- title: Chapter 5. Files and I/O
+  page: 159
+  options: /XYZ , None , 588.58502 , None
+  children:
+  - title: 5.1. Reading and Writing Text Data
+    page: 159
+    options: /XYZ , None , 365.00696 , None
+    children:
+    - title: Problem
+      page: 159
+      options: /XYZ , None , 334.51147 , None
+    - title: Solution
+      page: 159
+      options: /XYZ , None , 275.71396 , None
+    - title: Discussion
+      page: 160
+      options: /XYZ , None , 286.6788 , None
+  - title: 5.2. Printing to a File
+    page: 162
+    options: /XYZ , None , 542.24347 , None
+    children:
+    - title: Problem
+      page: 162
+      options: /XYZ , None , 511.74799 , None
+    - title: Solution
+      page: 162
+      options: /XYZ , None , 464.88397 , None
+    - title: Discussion
+      page: 162
+      options: /XYZ , None , 391.62 , None
+  - title: 5.3. Printing with a Different Separator or Line Ending
+    page: 162
+    options: /XYZ , None , 331.72156 , None
+    children:
+    - title: Problem
+      page: 162
+      options: /XYZ , None , 301.22604 , None
+    - title: Solution
+      page: 162
+      options: /XYZ , None , 241.76202 , None
+    - title: Discussion
+      page: 163
+      options: /XYZ , None , 472.01086 , None
+  - title: 5.4. Reading and Writing Binary Data
+    page: 163
+    options: /XYZ , None , 186.91281 , None
+    children:
+    - title: Problem
+      page: 163
+      options: /XYZ , None , 156.4173 , None
+    - title: Solution
+      page: 164
+      options: /XYZ , None , 607.5 , None
+    - title: Discussion
+      page: 164
+      options: /XYZ , None , 438.76947 , None
+  - title: 5.5. Writing to a File That Doesn’t Already Exist
+    page: 165
+    options: /XYZ , None , 169.57681 , None
+    children:
+    - title: Problem
+      page: 165
+      options: /XYZ , None , 139.0813 , None
+    - title: Solution
+      page: 166
+      options: /XYZ , None , 607.5 , None
+    - title: Discussion
+      page: 166
+      options: /XYZ , None , 420.10297 , None
+  - title: 5.6. Performing I/O Operations on a String
+    page: 166
+    options: /XYZ , None , 192.07141 , None
+    children:
+    - title: Problem
+      page: 166
+      options: /XYZ , None , 161.5759 , None
+    - title: Solution
+      page: 167
+      options: /XYZ , None , 607.5 , None
+    - title: Discussion
+      page: 167
+      options: /XYZ , None , 279.10291 , None
+  - title: 5.7. Reading and Writing Compressed Datafiles
+    page: 167
+    options: /XYZ , None , 148.20496 , None
+    children:
+    - title: Problem
+      page: 167
+      options: /XYZ , None , 117.70944 , None
+    - title: Solution
+      page: 168
+      options: /XYZ , None , 607.5 , None
+    - title: Discussion
+      page: 168
+      options: /XYZ , None , 288.70294 , None
+  - title: 5.8. Iterating Over Fixed-Sized Records
+    page: 169
+    options: /XYZ , None , 510.44348 , None
+    children:
+    - title: Problem
+      page: 169
+      options: /XYZ , None , 479.948 , None
+    - title: Solution
+      page: 169
+      options: /XYZ , None , 421.15045 , None
+    - title: Discussion
+      page: 169
+      options: /XYZ , None , 242.21985 , None
+  - title: 5.9. Reading Binary Data into a Mutable Buffer
+    page: 170
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 170
+      options: /XYZ , None , 577.00452 , None
+    - title: Solution
+      page: 170
+      options: /XYZ , None , 518.20703 , None
+    - title: Discussion
+      page: 170
+      options: /XYZ , None , 216.34286 , None
+  - title: 5.10. Memory Mapping Binary Files
+    page: 171
+    options: /XYZ , None , 241.57693 , None
+    children:
+    - title: Problem
+      page: 171
+      options: /XYZ , None , 211.08142 , None
+    - title: Solution
+      page: 171
+      options: /XYZ , None , 152.28391 , None
+    - title: Discussion
+      page: 173
+      options: /XYZ , None , 504.27789 , None
+  - title: 5.11. Manipulating Pathnames
+    page: 174
+    options: /XYZ , None , 568.10999 , None
+    children:
+    - title: Problem
+      page: 174
+      options: /XYZ , None , 537.6145 , None
+    - title: Solution
+      page: 174
+      options: /XYZ , None , 478.81702 , None
+    - title: Discussion
+      page: 174
+      options: /XYZ , None , 168.5528 , None
+  - title: 5.12. Testing for the Existence of a File
+    page: 175
+    options: /XYZ , None , 554.84351 , None
+    children:
+    - title: Problem
+      page: 175
+      options: /XYZ , None , 524.34802 , None
+    - title: Solution
+      page: 175
+      options: /XYZ , None , 478.15051 , None
+    - title: Discussion
+      page: 176
+      options: /XYZ , None , 574.01086 , None
+  - title: 5.13. Getting a Directory Listing
+    page: 176
+    options: /XYZ , None , 423.44598 , None
+    children:
+    - title: Problem
+      page: 176
+      options: /XYZ , None , 392.9505 , None
+    - title: Solution
+      page: 176
+      options: /XYZ , None , 346.75299 , None
+    - title: Discussion
+      page: 177
+      options: /XYZ , None , 501.34436 , None
+  - title: 5.14. Bypassing Filename Encoding
+    page: 178
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 178
+      options: /XYZ , None , 577.00452 , None
+    - title: Solution
+      page: 178
+      options: /XYZ , None , 518.20703 , None
+    - title: Discussion
+      page: 178
+      options: /XYZ , None , 135.80978 , None
+  - title: 5.15. Printing Bad Filenames
+    page: 179
+    options: /XYZ , None , 518.31 , None
+    children:
+    - title: Problem
+      page: 179
+      options: /XYZ , None , 487.81451 , None
+    - title: Solution
+      page: 179
+      options: /XYZ , None , 415.75049 , None
+    - title: Discussion
+      page: 179
+      options: /XYZ , None , 292.15289 , None
+  - title: 5.16. Adding or Changing the Encoding of an Already Open File
+    page: 181
+    options: /XYZ , None , 496.10999 , None
+    children:
+    - title: Problem
+      page: 181
+      options: /XYZ , None , 448.20807 , None
+    - title: Solution
+      page: 181
+      options: /XYZ , None , 389.41058 , None
+    - title: Discussion
+      page: 181
+      options: /XYZ , None , 121.61334 , None
+  - title: 5.17. Writing Bytes to a Text File
+    page: 183
+    options: /XYZ , None , 465.44348 , None
+    children:
+    - title: Problem
+      page: 183
+      options: /XYZ , None , 434.94797 , None
+    - title: Solution
+      page: 183
+      options: /XYZ , None , 388.75046 , None
+    - title: Discussion
+      page: 183
+      options: /XYZ , None , 212.21982 , None
+  - title: 5.18. Wrapping an Existing File Descriptor As a File Object
+    page: 184
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 184
+      options: /XYZ , None , 577.00452 , None
+    - title: Solution
+      page: 184
+      options: /XYZ , None , 505.60699 , None
+    - title: Discussion
+      page: 184
+      options: /XYZ , None , 239.00989 , None
+  - title: 5.19. Making Temporary Files and Directories
+    page: 185
+    options: /XYZ , None , 170.5773 , None
+    children:
+    - title: Problem
+      page: 185
+      options: /XYZ , None , 140.08179 , None
+    - title: Solution
+      page: 186
+      options: /XYZ , None , 607.5 , None
+    - title: Discussion
+      page: 187
+      options: /XYZ , None , 477.34436 , None
+  - title: 5.20. Communicating with Serial Ports
+    page: 188
+    options: /XYZ , None , 555.51001 , None
+    children:
+    - title: Problem
+      page: 188
+      options: /XYZ , None , 525.01453 , None
+    - title: Solution
+      page: 188
+      options: /XYZ , None , 466.21698 , None
+    - title: Discussion
+      page: 188
+      options: /XYZ , None , 212.95288 , None
+  - title: 5.21. Serializing Python Objects
+    page: 189
+    options: /XYZ , None , 567.44348 , None
+    children:
+    - title: Problem
+      page: 189
+      options: /XYZ , None , 536.948 , None
+    - title: Solution
+      page: 189
+      options: /XYZ , None , 478.15051 , None
+    - title: Discussion
+      page: 189
+      options: /XYZ , None , 226.48688 , None
+- title: Chapter 6. Data Encoding and Processing
+  page: 193
+  options: /XYZ , None , 588.58502 , None
+  children:
+  - title: 6.1. Reading and Writing CSV Data
+    page: 193
+    options: /XYZ , None , 365.00696 , None
+    children:
+    - title: Problem
+      page: 193
+      options: /XYZ , None , 334.51147 , None
+    - title: Solution
+      page: 193
+      options: /XYZ , None , 288.31396 , None
+    - title: Discussion
+      page: 195
+      options: /XYZ , None , 461.81085 , None
+  - title: 6.2. Reading and Writing JSON Data
+    page: 197
+    options: /XYZ , None , 568.10999 , None
+    children:
+    - title: Problem
+      page: 197
+      options: /XYZ , None , 537.6145 , None
+    - title: Solution
+      page: 197
+      options: /XYZ , None , 491.41699 , None
+    - title: Discussion
+      page: 197
+      options: /XYZ , None , 162.88681 , None
+  - title: 6.3. Parsing Simple XML Data
+    page: 201
+    options: /XYZ , None , 407.17694 , None
+    children:
+    - title: Problem
+      page: 201
+      options: /XYZ , None , 376.68146 , None
+    - title: Solution
+      page: 201
+      options: /XYZ , None , 330.48392 , None
+    - title: Discussion
+      page: 202
+      options: /XYZ , None , 350.14438 , None
+  - title: 6.4. Parsing Huge XML Files Incrementally
+    page: 204
+    options: /XYZ , None , 554.177 , None
+    children:
+    - title: Problem
+      page: 204
+      options: /XYZ , None , 523.68152 , None
+    - title: Solution
+      page: 204
+      options: /XYZ , None , 477.48401 , None
+    - title: Discussion
+      page: 206
+      options: /XYZ , None , 413.81088 , None
+  - title: 6.5. Turning a Dictionary into XML
+    page: 207
+    options: /XYZ , None , 312.37692 , None
+    children:
+    - title: Problem
+      page: 207
+      options: /XYZ , None , 281.88141 , None
+    - title: Solution
+      page: 207
+      options: /XYZ , None , 235.6839 , None
+    - title: Discussion
+      page: 208
+      options: /XYZ , None , 298.34485 , None
+  - title: 6.6. Parsing, Modifying, and Rewriting XML
+    page: 209
+    options: /XYZ , None , 320.64395 , None
+    children:
+    - title: Problem
+      page: 209
+      options: /XYZ , None , 290.14844 , None
+    - title: Solution
+      page: 209
+      options: /XYZ , None , 231.35092 , None
+    - title: Discussion
+      page: 211
+      options: /XYZ , None , 553.6109 , None
+  - title: 6.7. Parsing XML Documents with Namespaces
+    page: 211
+    options: /XYZ , None , 409.44647 , None
+    children:
+    - title: Problem
+      page: 211
+      options: /XYZ , None , 378.95099 , None
+    - title: Solution
+      page: 211
+      options: /XYZ , None , 332.75345 , None
+    - title: Discussion
+      page: 212
+      options: /XYZ , None , 206.21072 , None
+  - title: 6.8. Interacting with a Relational Database
+    page: 213
+    options: /XYZ , None , 349.57693 , None
+    children:
+    - title: Problem
+      page: 213
+      options: /XYZ , None , 319.08142 , None
+    - title: Solution
+      page: 213
+      options: /XYZ , None , 272.88391 , None
+    - title: Discussion
+      page: 215
+      options: /XYZ , None , 607.5 , None
+  - title: 6.9. Decoding and Encoding Hexadecimal Digits
+    page: 215
+    options: /XYZ , None , 215.20297 , None
+    children:
+    - title: Problem
+      page: 215
+      options: /XYZ , None , 184.70746 , None
+    - title: Solution
+      page: 215
+      options: /XYZ , None , 125.90994 , None
+    - title: Discussion
+      page: 216
+      options: /XYZ , None , 365.14438 , None
+  - title: 6.10. Decoding and Encoding Base64
+    page: 217
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 217
+      options: /XYZ , None , 577.00452 , None
+    - title: Solution
+      page: 217
+      options: /XYZ , None , 530.80701 , None
+    - title: Discussion
+      page: 217
+      options: /XYZ , None , 332.74301 , None
+  - title: 6.11. Reading and Writing Binary Arrays of Structures
+    page: 217
+    options: /XYZ , None , 169.64453 , None
+    children:
+    - title: Problem
+      page: 217
+      options: /XYZ , None , 139.14902 , None
+    - title: Solution
+      page: 218
+      options: /XYZ , None , 607.5 , None
+    - title: Discussion
+      page: 219
+      options: /XYZ , None , 481.6109 , None
+  - title: 6.12. Reading Nested and Variable-Sized Binary Structures
+    page: 221
+    options: /XYZ , None , 192.84387 , None
+    children:
+    - title: Problem
+      page: 221
+      options: /XYZ , None , 144.94196 , None
+    - title: Solution
+      page: 222
+      options: /XYZ , None , 607.5 , None
+    - title: Discussion
+      page: 230
+      options: /XYZ , None , 270.94431 , None
+  - title: 6.13. Summarizing Data and Performing Statistics
+    page: 232
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 232
+      options: /XYZ , None , 577.00452 , None
+    - title: Solution
+      page: 232
+      options: /XYZ , None , 518.20703 , None
+    - title: Discussion
+      page: 234
+      options: /XYZ , None , 514.6109 , None
+- title: Chapter 7. Functions
+  page: 235
+  options: /XYZ , None , 588.58502 , None
+  children:
+  - title: 7.1. Writing Functions That Accept Any Number of Arguments
+    page: 235
+    options: /XYZ , None , 339.14047 , None
+    children:
+    - title: Problem
+      page: 235
+      options: /XYZ , None , 291.23856 , None
+    - title: Solution
+      page: 235
+      options: /XYZ , None , 245.04105 , None
+    - title: Discussion
+      page: 236
+      options: /XYZ , None , 268.8783 , None
+  - title: 7.2. Writing Functions That Only Accept Keyword Arguments
+    page: 237
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 237
+      options: /XYZ , None , 559.59808 , None
+    - title: Solution
+      page: 237
+      options: /XYZ , None , 513.40057 , None
+    - title: Discussion
+      page: 237
+      options: /XYZ , None , 267.27002 , None
+  - title: 7.3. Attaching Informational Metadata to Function Arguments
+    page: 238
+    options: /XYZ , None , 527.77698 , None
+    children:
+    - title: Problem
+      page: 238
+      options: /XYZ , None , 479.87509 , None
+    - title: Solution
+      page: 238
+      options: /XYZ , None , 421.07758 , None
+    - title: Discussion
+      page: 238
+      options: /XYZ , None , 166.07993 , None
+  - title: 7.4. Returning Multiple Values from a Function
+    page: 239
+    options: /XYZ , None , 511.70999 , None
+    children:
+    - title: Problem
+      page: 239
+      options: /XYZ , None , 481.21448 , None
+    - title: Solution
+      page: 239
+      options: /XYZ , None , 435.01697 , None
+    - title: Discussion
+      page: 239
+      options: /XYZ , None , 280.8194 , None
+  - title: 7.5. Defining Functions with Default Arguments
+    page: 240
+    options: /XYZ , None , 572.90997 , None
+    children:
+    - title: Problem
+      page: 240
+      options: /XYZ , None , 542.41449 , None
+    - title: Solution
+      page: 240
+      options: /XYZ , None , 483.617 , None
+    - title: Discussion
+      page: 241
+      options: /XYZ , None , 607.5 , None
+  - title: 7.6. Defining Anonymous or Inline Functions
+    page: 242
+    options: /XYZ , None , 203.97784 , None
+    children:
+    - title: Problem
+      page: 242
+      options: /XYZ , None , 173.48233 , None
+    - title: Solution
+      page: 243
+      options: /XYZ , None , 607.5 , None
+    - title: Discussion
+      page: 243
+      options: /XYZ , None , 305.50293 , None
+  - title: 7.7. Capturing Variables in Anonymous Functions
+    page: 243
+    options: /XYZ , None , 163.33798 , None
+    children:
+    - title: Problem
+      page: 243
+      options: /XYZ , None , 132.84247 , None
+    - title: Solution
+      page: 244
+      options: /XYZ , None , 607.5 , None
+    - title: Discussion
+      page: 244
+      options: /XYZ , None , 150.63629 , None
+  - title: 7.8. Making an N-Argument Callable Work As a Callable with Fewer Arguments
+    page: 245
+    options: /XYZ , None , 300.97696 , None
+    children:
+    - title: Problem
+      page: 245
+      options: /XYZ , None , 253.07504 , None
+    - title: Solution
+      page: 245
+      options: /XYZ , None , 181.67752 , None
+    - title: Discussion
+      page: 246
+      options: /XYZ , None , 336.21136 , None
+  - title: 7.9. Replacing Single Method Classes with Functions
+    page: 249
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 249
+      options: /XYZ , None , 577.00452 , None
+    - title: Solution
+      page: 249
+      options: /XYZ , None , 517.54053 , None
+    - title: Discussion
+      page: 249
+      options: /XYZ , None , 201.34286 , None
+  - title: 7.10. Carrying Extra State with Callback Functions
+    page: 250
+    options: /XYZ , None , 555.51001 , None
+    children:
+    - title: Problem
+      page: 250
+      options: /XYZ , None , 525.01453 , None
+    - title: Solution
+      page: 250
+      options: /XYZ , None , 453.617 , None
+    - title: Discussion
+      page: 252
+      options: /XYZ , None , 353.21094 , None
+  - title: 7.11. Inlining Callback Functions
+    page: 253
+    options: /XYZ , None , 415.37747 , None
+    children:
+    - title: Problem
+      page: 253
+      options: /XYZ , None , 384.88196 , None
+    - title: Solution
+      page: 253
+      options: /XYZ , None , 313.48444 , None
+    - title: Discussion
+      page: 255
+      options: /XYZ , None , 607.5 , None
+  - title: 7.12. Accessing Variables Defined Inside a Closure
+    page: 256
+    options: /XYZ , None , 528.31049 , None
+    children:
+    - title: Problem
+      page: 256
+      options: /XYZ , None , 497.815 , None
+    - title: Solution
+      page: 256
+      options: /XYZ , None , 439.01746 , None
+    - title: Discussion
+      page: 257
+      options: /XYZ , None , 607.5 , None
+- title: Chapter 8. Classes and Objects
+  page: 261
+  options: /XYZ , None , 588.58502 , None
+  children:
+  - title: 8.1. Changing the String Representation of Instances
+    page: 261
+    options: /XYZ , None , 365.00696 , None
+    children:
+    - title: Problem
+      page: 261
+      options: /XYZ , None , 334.51147 , None
+    - title: Solution
+      page: 261
+      options: /XYZ , None , 275.71396 , None
+    - title: Discussion
+      page: 262
+      options: /XYZ , None , 408.27789 , None
+  - title: 8.2. Customizing String Formatting
+    page: 263
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 263
+      options: /XYZ , None , 577.00452 , None
+    - title: Solution
+      page: 263
+      options: /XYZ , None , 517.54053 , None
+    - title: Discussion
+      page: 263
+      options: /XYZ , None , 151.40982 , None
+  - title: 8.3. Making Objects Support the Context-Management Protocol
+    page: 264
+    options: /XYZ , None , 469.64349 , None
+    children:
+    - title: Problem
+      page: 264
+      options: /XYZ , None , 421.74158 , None
+    - title: Solution
+      page: 264
+      options: /XYZ , None , 362.27759 , None
+    - title: Discussion
+      page: 265
+      options: /XYZ , None , 425.14438 , None
+  - title: 8.4. Saving Memory When Creating a Large Number of Instances
+    page: 266
+    options: /XYZ , None , 200.44437 , None
+    children:
+    - title: Problem
+      page: 266
+      options: /XYZ , None , 152.54245 , None
+    - title: Solution
+      page: 267
+      options: /XYZ , None , 607.5 , None
+    - title: Discussion
+      page: 267
+      options: /XYZ , None , 384.63641 , None
+  - title: 8.5. Encapsulating Names in a Class
+    page: 268
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 268
+      options: /XYZ , None , 577.00452 , None
+    - title: Solution
+      page: 268
+      options: /XYZ , None , 518.20703 , None
+    - title: Discussion
+      page: 269
+      options: /XYZ , None , 406.87836 , None
+  - title: 8.6. Creating Managed Attributes
+    page: 269
+    options: /XYZ , None , 180.17987 , None
+    children:
+    - title: Problem
+      page: 269
+      options: /XYZ , None , 149.68436 , None
+    - title: Solution
+      page: 270
+      options: /XYZ , None , 607.5 , None
+    - title: Discussion
+      page: 271
+      options: /XYZ , None , 262.34482 , None
+  - title: 8.7. Calling a Method on a Parent Class
+    page: 274
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 274
+      options: /XYZ , None , 577.00452 , None
+    - title: Solution
+      page: 274
+      options: /XYZ , None , 518.20703 , None
+    - title: Discussion
+      page: 275
+      options: /XYZ , None , 529.41138 , None
+  - title: 8.8. Extending a Property in a Subclass
+    page: 278
+    options: /XYZ , None , 310.31091 , None
+    children:
+    - title: Problem
+      page: 278
+      options: /XYZ , None , 279.8154 , None
+    - title: Solution
+      page: 278
+      options: /XYZ , None , 221.01788 , None
+    - title: Discussion
+      page: 280
+      options: /XYZ , None , 524.81091 , None
+  - title: 8.9. Creating a New Kind of Class or Instance Attribute
+    page: 282
+    options: /XYZ , None , 414.50995 , None
+    children:
+    - title: Problem
+      page: 282
+      options: /XYZ , None , 384.01447 , None
+    - title: Solution
+      page: 282
+      options: /XYZ , None , 325.21692 , None
+    - title: Discussion
+      page: 283
+      options: /XYZ , None , 236.4783 , None
+  - title: 8.10. Using Lazily Computed Properties
+    page: 285
+    options: /XYZ , None , 307.70996 , None
+    children:
+    - title: Problem
+      page: 285
+      options: /XYZ , None , 277.21445 , None
+    - title: Solution
+      page: 285
+      options: /XYZ , None , 205.81693 , None
+    - title: Discussion
+      page: 286
+      options: /XYZ , None , 187.61072 , None
+  - title: 8.11. Simplifying the Initialization of Data Structures
+    page: 288
+    options: /XYZ , None , 340.70996 , None
+    children:
+    - title: Problem
+      page: 288
+      options: /XYZ , None , 310.21445 , None
+    - title: Solution
+      page: 288
+      options: /XYZ , None , 250.75043 , None
+    - title: Discussion
+      page: 290
+      options: /XYZ , None , 281.14432 , None
+  - title: 8.12. Defining an Interface or Abstract Base Class
+    page: 292
+    options: /XYZ , None , 454.577 , None
+    children:
+    - title: Problem
+      page: 292
+      options: /XYZ , None , 424.08148 , None
+    - title: Solution
+      page: 292
+      options: /XYZ , None , 352.68396 , None
+    - title: Discussion
+      page: 294
+      options: /XYZ , None , 607.5 , None
+  - title: 8.13. Implementing a Data Model or Type System
+    page: 295
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 295
+      options: /XYZ , None , 577.00452 , None
+    - title: Solution
+      page: 295
+      options: /XYZ , None , 518.20703 , None
+    - title: Discussion
+      page: 298
+      options: /XYZ , None , 502.6109 , None
+  - title: 8.14. Implementing Custom Containers
+    page: 301
+    options: /XYZ , None , 568.10999 , None
+    children:
+    - title: Problem
+      page: 301
+      options: /XYZ , None , 537.6145 , None
+    - title: Solution
+      page: 301
+      options: /XYZ , None , 466.21701 , None
+    - title: Discussion
+      page: 303
+      options: /XYZ , None , 483.07837 , None
+  - title: 8.15. Delegating Attribute Access
+    page: 305
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 305
+      options: /XYZ , None , 577.00452 , None
+    - title: Solution
+      page: 305
+      options: /XYZ , None , 518.20703 , None
+    - title: Discussion
+      page: 307
+      options: /XYZ , None , 438.41086 , None
+  - title: 8.16. Defining More Than One Constructor in a Class
+    page: 309
+    options: /XYZ , None , 409.10995 , None
+    children:
+    - title: Problem
+      page: 309
+      options: /XYZ , None , 378.61444 , None
+    - title: Solution
+      page: 309
+      options: /XYZ , None , 319.15042 , None
+    - title: Discussion
+      page: 310
+      options: /XYZ , None , 574.01086 , None
+  - title: 8.17. Creating an Instance Without Invoking init
+    page: 311
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 311
+      options: /XYZ , None , 577.00452 , None
+    - title: Solution
+      page: 311
+      options: /XYZ , None , 517.54053 , None
+    - title: Discussion
+      page: 311
+      options: /XYZ , None , 165.20984 , None
+  - title: 8.18. Extending Classes with Mixins
+    page: 312
+    options: /XYZ , None , 267.2439 , None
+    children:
+    - title: Problem
+      page: 312
+      options: /XYZ , None , 236.74838 , None
+    - title: Solution
+      page: 312
+      options: /XYZ , None , 152.75085 , None
+    - title: Discussion
+      page: 315
+      options: /XYZ , None , 607.5 , None
+  - title: 8.19. Implementing Stateful Objects or State Machines
+    page: 317
+    options: /XYZ , None , 248.90994 , None
+    children:
+    - title: Problem
+      page: 317
+      options: /XYZ , None , 218.41443 , None
+    - title: Solution
+      page: 317
+      options: /XYZ , None , 159.61691 , None
+    - title: Discussion
+      page: 320
+      options: /XYZ , None , 370.01089 , None
+  - title: 8.20. Calling a Method on an Object Given the Name As a String
+    page: 323
+    options: /XYZ , None , 437.30994 , None
+    children:
+    - title: Problem
+      page: 323
+      options: /XYZ , None , 389.40805 , None
+    - title: Solution
+      page: 323
+      options: /XYZ , None , 330.61053 , None
+    - title: Discussion
+      page: 324
+      options: /XYZ , None , 437.74438 , None
+  - title: 8.21. Implementing the Visitor Pattern
+    page: 324
+    options: /XYZ , None , 205.37982 , None
+    children:
+    - title: Problem
+      page: 324
+      options: /XYZ , None , 174.88431 , None
+    - title: Solution
+      page: 325
+      options: /XYZ , None , 607.5 , None
+    - title: Discussion
+      page: 327
+      options: /XYZ , None , 274.01083 , None
+  - title: 8.22. Implementing the Visitor Pattern Without Recursion
+    page: 329
+    options: /XYZ , None , 484.5105 , None
+    children:
+    - title: Problem
+      page: 329
+      options: /XYZ , None , 454.01501 , None
+    - title: Solution
+      page: 329
+      options: /XYZ , None , 382.61749 , None
+    - title: Discussion
+      page: 332
+      options: /XYZ , None , 184.01074 , None
+  - title: 8.23. Managing Memory in Cyclic Data Structures
+    page: 335
+    options: /XYZ , None , 256.57693 , None
+    children:
+    - title: Problem
+      page: 335
+      options: /XYZ , None , 226.08142 , None
+    - title: Solution
+      page: 335
+      options: /XYZ , None , 167.28391 , None
+    - title: Discussion
+      page: 336
+      options: /XYZ , None , 243.41077 , None
+  - title: 8.24. Making Classes Support Comparison Operations
+    page: 339
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 339
+      options: /XYZ , None , 577.00452 , None
+    - title: Solution
+      page: 339
+      options: /XYZ , None , 517.54053 , None
+    - title: Discussion
+      page: 340
+      options: /XYZ , None , 234.87778 , None
+  - title: 8.25. Creating Cached Instances
+    page: 341
+    options: /XYZ , None , 510.44348 , None
+    children:
+    - title: Problem
+      page: 341
+      options: /XYZ , None , 479.948 , None
+    - title: Solution
+      page: 341
+      options: /XYZ , None , 421.15045 , None
+    - title: Discussion
+      page: 342
+      options: /XYZ , None , 467.81085 , None
+- title: Chapter 9. Metaprogramming
+  page: 347
+  options: /XYZ , None , 588.58502 , None
+  children:
+  - title: 9.1. Putting a Wrapper Around a Function
+    page: 347
+    options: /XYZ , None , 276.14044 , None
+    children:
+    - title: Problem
+      page: 347
+      options: /XYZ , None , 245.64493 , None
+    - title: Solution
+      page: 347
+      options: /XYZ , None , 186.84741 , None
+    - title: Discussion
+      page: 348
+      options: /XYZ , None , 345.41092 , None
+  - title: 9.2. Preserving Function Metadata When Writing Decorators
+    page: 349
+    options: /XYZ , None , 324.77744 , None
+    children:
+    - title: Problem
+      page: 349
+      options: /XYZ , None , 276.87552 , None
+    - title: Solution
+      page: 349
+      options: /XYZ , None , 218.078 , None
+    - title: Discussion
+      page: 350
+      options: /XYZ , None , 322.6109 , None
+  - title: 9.3. Unwrapping a Decorator
+    page: 351
+    options: /XYZ , None , 455.64398 , None
+    children:
+    - title: Problem
+      page: 351
+      options: /XYZ , None , 425.1485 , None
+    - title: Solution
+      page: 351
+      options: /XYZ , None , 366.35095 , None
+    - title: Discussion
+      page: 351
+      options: /XYZ , None , 205.35382 , None
+  - title: 9.4. Defining a Decorator That Takes Arguments
+    page: 352
+    options: /XYZ , None , 177.17737 , None
+    children:
+    - title: Problem
+      page: 352
+      options: /XYZ , None , 146.68185 , None
+    - title: Solution
+      page: 353
+      options: /XYZ , None , 607.5 , None
+    - title: Discussion
+      page: 353
+      options: /XYZ , None , 153.10281 , None
+  - title: 9.5. Defining a Decorator with User Adjustable Attributes
+    page: 354
+    options: /XYZ , None , 489.44348 , None
+    children:
+    - title: Problem
+      page: 354
+      options: /XYZ , None , 458.948 , None
+    - title: Solution
+      page: 354
+      options: /XYZ , None , 400.15045 , None
+    - title: Discussion
+      page: 356
+      options: /XYZ , None , 594.41089 , None
+  - title: 9.6. Defining a Decorator That Takes an Optional Argument
+    page: 357
+    options: /XYZ , None , 349.04343 , None
+    children:
+    - title: Problem
+      page: 357
+      options: /XYZ , None , 301.14151 , None
+    - title: Solution
+      page: 357
+      options: /XYZ , None , 216.47748 , None
+    - title: Discussion
+      page: 358
+      options: /XYZ , None , 406.47784 , None
+  - title: 9.7. Enforcing Type Checking on a Function Using a Decorator
+    page: 359
+    options: /XYZ , None , 347.57745 , None
+    children:
+    - title: Problem
+      page: 359
+      options: /XYZ , None , 299.67554 , None
+    - title: Solution
+      page: 359
+      options: /XYZ , None , 240.87802 , None
+    - title: Discussion
+      page: 361
+      options: /XYZ , None , 607.5 , None
+  - title: 9.8. Defining Decorators As Part of a Class
+    page: 363
+    options: /XYZ , None , 435.97699 , None
+    children:
+    - title: Problem
+      page: 363
+      options: /XYZ , None , 405.48151 , None
+    - title: Solution
+      page: 363
+      options: /XYZ , None , 346.68396 , None
+    - title: Discussion
+      page: 364
+      options: /XYZ , None , 449.67786 , None
+  - title: 9.9. Defining Decorators As Classes
+    page: 365
+    options: /XYZ , None , 406.51047 , None
+    children:
+    - title: Problem
+      page: 365
+      options: /XYZ , None , 376.01495 , None
+    - title: Solution
+      page: 365
+      options: /XYZ , None , 317.21744 , None
+    - title: Discussion
+      page: 366
+      options: /XYZ , None , 316.61087 , None
+  - title: 9.10. Applying Decorators to Class and Static Methods
+    page: 368
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 368
+      options: /XYZ , None , 577.00452 , None
+    - title: Solution
+      page: 368
+      options: /XYZ , None , 530.80701 , None
+    - title: Discussion
+      page: 369
+      options: /XYZ , None , 482.21088 , None
+  - title: 9.11. Writing Decorators That Add Arguments to Wrapped Functions
+    page: 370
+    options: /XYZ , None , 541.04352 , None
+    children:
+    - title: Problem
+      page: 370
+      options: /XYZ , None , 493.1416 , None
+    - title: Solution
+      page: 370
+      options: /XYZ , None , 421.74408 , None
+    - title: Discussion
+      page: 370
+      options: /XYZ , None , 138.54633 , None
+  - title: 9.12. Using Decorators to Patch Class Definitions
+    page: 373
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 373
+      options: /XYZ , None , 577.00452 , None
+    - title: Solution
+      page: 373
+      options: /XYZ , None , 518.20703 , None
+    - title: Discussion
+      page: 373
+      options: /XYZ , None , 152.74283 , None
+  - title: 9.13. Using a Metaclass to Control Instance Creation
+    page: 374
+    options: /XYZ , None , 335.77692 , None
+    children:
+    - title: Problem
+      page: 374
+      options: /XYZ , None , 305.2814 , None
+    - title: Solution
+      page: 374
+      options: /XYZ , None , 246.48389 , None
+    - title: Discussion
+      page: 376
+      options: /XYZ , None , 232.61078 , None
+  - title: 9.14. Capturing Class Attribute Definition Order
+    page: 377
+    options: /XYZ , None , 479.91 , None
+    children:
+    - title: Problem
+      page: 377
+      options: /XYZ , None , 449.41449 , None
+    - title: Solution
+      page: 377
+      options: /XYZ , None , 378.01697 , None
+    - title: Discussion
+      page: 379
+      options: /XYZ , None , 607.5 , None
+  - title: 9.15. Defining a Metaclass That Takes Optional Arguments
+    page: 380
+    options: /XYZ , None , 393.91046 , None
+    children:
+    - title: Problem
+      page: 380
+      options: /XYZ , None , 363.41498 , None
+    - title: Solution
+      page: 380
+      options: /XYZ , None , 304.61743 , None
+    - title: Discussion
+      page: 381
+      options: /XYZ , None , 356.14441 , None
+  - title: 9.16. Enforcing an Argument Signature on *args and **kwargs
+    page: 382
+    options: /XYZ , None , 468.91049 , None
+    children:
+    - title: Problem
+      page: 382
+      options: /XYZ , None , 421.00861 , None
+    - title: Solution
+      page: 382
+      options: /XYZ , None , 348.94455 , None
+    - title: Discussion
+      page: 384
+      options: /XYZ , None , 365.14441 , None
+  - title: 9.17. Enforcing Coding Conventions in Classes
+    page: 385
+    options: /XYZ , None , 367.04349 , None
+    children:
+    - title: Problem
+      page: 385
+      options: /XYZ , None , 336.54797 , None
+    - title: Solution
+      page: 385
+      options: /XYZ , None , 265.15045 , None
+    - title: Discussion
+      page: 387
+      options: /XYZ , None , 169.01074 , None
+  - title: 9.18. Defining Classes Programmatically
+    page: 388
+    options: /XYZ , None , 305.3779 , None
+    children:
+    - title: Problem
+      page: 388
+      options: /XYZ , None , 274.88239 , None
+    - title: Solution
+      page: 388
+      options: /XYZ , None , 202.81836 , None
+    - title: Discussion
+      page: 390
+      options: /XYZ , None , 473.54489 , None
+  - title: 9.19. Initializing Class Members at Definition Time
+    page: 392
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 392
+      options: /XYZ , None , 577.00452 , None
+    - title: Solution
+      page: 392
+      options: /XYZ , None , 518.20703 , None
+    - title: Discussion
+      page: 393
+      options: /XYZ , None , 553.6109 , None
+  - title: 9.20. Implementing Multiple Dispatch with Function Annotations
+    page: 394
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 394
+      options: /XYZ , None , 559.59808 , None
+    - title: Solution
+      page: 394
+      options: /XYZ , None , 488.20059 , None
+    - title: Discussion
+      page: 397
+      options: /XYZ , None , 543.41089 , None
+  - title: 9.21. Avoiding Repetitive Property Methods
+    page: 400
+    options: /XYZ , None , 430.10999 , None
+    children:
+    - title: Problem
+      page: 400
+      options: /XYZ , None , 399.6145 , None
+    - title: Solution
+      page: 400
+      options: /XYZ , None , 328.21695 , None
+    - title: Discussion
+      page: 401
+      options: /XYZ , None , 287.21085 , None
+  - title: 9.22. Defining Context Managers the Easy Way
+    page: 402
+    options: /XYZ , None , 490.70999 , None
+    children:
+    - title: Problem
+      page: 402
+      options: /XYZ , None , 460.21448 , None
+    - title: Solution
+      page: 402
+      options: /XYZ , None , 413.35046 , None
+    - title: Discussion
+      page: 403
+      options: /XYZ , None , 343.01089 , None
+  - title: 9.23. Executing Code with Local Side Effects
+    page: 404
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 404
+      options: /XYZ , None , 577.00452 , None
+    - title: Solution
+      page: 404
+      options: /XYZ , None , 517.54053 , None
+    - title: Discussion
+      page: 405
+      options: /XYZ , None , 607.5 , None
+  - title: 9.24. Parsing and Analyzing Python Source
+    page: 406
+    options: /XYZ , None , 211.31088 , None
+    children:
+    - title: Problem
+      page: 406
+      options: /XYZ , None , 180.81537 , None
+    - title: Solution
+      page: 406
+      options: /XYZ , None , 134.61786 , None
+    - title: Discussion
+      page: 408
+      options: /XYZ , None , 126.34418 , None
+  - title: 9.25. Disassembling Python Byte Code
+    page: 410
+    options: /XYZ , None , 223.04346 , None
+    children:
+    - title: Problem
+      page: 410
+      options: /XYZ , None , 192.54794 , None
+    - title: Solution
+      page: 410
+      options: /XYZ , None , 133.75043 , None
+    - title: Discussion
+      page: 411
+      options: /XYZ , None , 247.61078 , None
+- title: Chapter 10. Modules and Packages
+  page: 415
+  options: /XYZ , None , 588.58502 , None
+  children:
+  - title: 10.1. Making a Hierarchical Package of Modules
+    page: 415
+    options: /XYZ , None , 351.74048 , None
+    children:
+    - title: Problem
+      page: 415
+      options: /XYZ , None , 321.24496 , None
+    - title: Solution
+      page: 415
+      options: /XYZ , None , 262.44745 , None
+    - title: Discussion
+      page: 416
+      options: /XYZ , None , 531.9444 , None
+  - title: 10.2. Controlling the Import of Everything
+    page: 416
+    options: /XYZ , None , 171.11337 , None
+    children:
+    - title: Problem
+      page: 416
+      options: /XYZ , None , 140.61786 , None
+    - title: Solution
+      page: 417
+      options: /XYZ , None , 607.5 , None
+    - title: Discussion
+      page: 417
+      options: /XYZ , None , 419.63599 , None
+  - title: 10.3. Importing Package Submodules Using Relative Names
+    page: 417
+    options: /XYZ , None , 300.67154 , None
+    children:
+    - title: Problem
+      page: 417
+      options: /XYZ , None , 252.76962 , None
+    - title: Solution
+      page: 417
+      options: /XYZ , None , 181.3721 , None
+    - title: Discussion
+      page: 418
+      options: /XYZ , None , 375.27786 , None
+  - title: 10.4. Splitting a Module into Multiple Files
+    page: 419
+    options: /XYZ , None , 403.64349 , None
+    children:
+    - title: Problem
+      page: 419
+      options: /XYZ , None , 373.14798 , None
+    - title: Solution
+      page: 419
+      options: /XYZ , None , 301.75046 , None
+    - title: Discussion
+      page: 420
+      options: /XYZ , None , 197.14423 , None
+  - title: 10.5. Making Separate Directories of Code Import Under a Common Namespace
+    page: 422
+    options: /XYZ , None , 568.10999 , None
+    children:
+    - title: Problem
+      page: 422
+      options: /XYZ , None , 520.20813 , None
+    - title: Solution
+      page: 422
+      options: /XYZ , None , 436.21057 , None
+    - title: Discussion
+      page: 423
+      options: /XYZ , None , 607.5 , None
+  - title: 10.6. Reloading Modules
+    page: 424
+    options: /XYZ , None , 544.10999 , None
+    children:
+    - title: Problem
+      page: 424
+      options: /XYZ , None , 513.6145 , None
+    - title: Solution
+      page: 424
+      options: /XYZ , None , 467.41699 , None
+    - title: Discussion
+      page: 424
+      options: /XYZ , None , 363.55301 , None
+  - title: 10.7. Making a Directory or Zip File Runnable As a Main Script
+    page: 425
+    options: /XYZ , None , 289.57697 , None
+    children:
+    - title: Problem
+      page: 425
+      options: /XYZ , None , 241.67505 , None
+    - title: Solution
+      page: 425
+      options: /XYZ , None , 182.87753 , None
+    - title: Discussion
+      page: 426
+      options: /XYZ , None , 458.81088 , None
+  - title: 10.8. Reading Datafiles Within a Package
+    page: 426
+    options: /XYZ , None , 313.71243 , None
+    children:
+    - title: Problem
+      page: 426
+      options: /XYZ , None , 283.21692 , None
+    - title: Solution
+      page: 426
+      options: /XYZ , None , 224.4194 , None
+    - title: Discussion
+      page: 427
+      options: /XYZ , None , 534.34436 , None
+  - title: 10.9. Adding Directories to sys.path
+    page: 427
+    options: /XYZ , None , 257.4469 , None
+    children:
+    - title: Problem
+      page: 427
+      options: /XYZ , None , 226.95139 , None
+    - title: Solution
+      page: 427
+      options: /XYZ , None , 154.88736 , None
+    - title: Discussion
+      page: 428
+      options: /XYZ , None , 388.01086 , None
+  - title: 10.10. Importing Modules Using a Name Given in a String
+    page: 429
+    options: /XYZ , None , 555.51001 , None
+    children:
+    - title: Problem
+      page: 429
+      options: /XYZ , None , 525.01453 , None
+    - title: Solution
+      page: 429
+      options: /XYZ , None , 465.55048 , None
+    - title: Discussion
+      page: 429
+      options: /XYZ , None , 205.55338 , None
+  - title: 10.11. Loading Modules from a Remote Machine Using Import Hooks
+    page: 430
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 430
+      options: /XYZ , None , 559.59808 , None
+    - title: Solution
+      page: 430
+      options: /XYZ , None , 500.8006 , None
+    - title: Discussion
+      page: 438
+      options: /XYZ , None , 151.3446 , None
+  - title: 10.12. Patching Modules on Import
+    page: 446
+    options: /XYZ , None , 293.24347 , None
+    children:
+    - title: Problem
+      page: 446
+      options: /XYZ , None , 262.74796 , None
+    - title: Solution
+      page: 446
+      options: /XYZ , None , 203.95044 , None
+    - title: Discussion
+      page: 448
+      options: /XYZ , None , 410.21088 , None
+  - title: 10.13. Installing Packages Just for Yourself
+    page: 449
+    options: /XYZ , None , 369.04443 , None
+    children:
+    - title: Problem
+      page: 449
+      options: /XYZ , None , 338.54892 , None
+    - title: Solution
+      page: 449
+      options: /XYZ , None , 267.1514 , None
+    - title: Discussion
+      page: 450
+      options: /XYZ , None , 607.5 , None
+  - title: 10.14. Creating a New Python Environment
+    page: 450
+    options: /XYZ , None , 446.0686 , None
+    children:
+    - title: Problem
+      page: 450
+      options: /XYZ , None , 415.57309 , None
+    - title: Solution
+      page: 450
+      options: /XYZ , None , 344.17557 , None
+    - title: Discussion
+      page: 451
+      options: /XYZ , None , 489.41089 , None
+  - title: 10.15. Distributing Packages
+    page: 451
+    options: /XYZ , None , 200.04636 , None
+    children:
+    - title: Problem
+      page: 451
+      options: /XYZ , None , 169.55084 , None
+    - title: Solution
+      page: 452
+      options: /XYZ , None , 607.5 , None
+    - title: Discussion
+      page: 453
+      options: /XYZ , None , 607.5 , None
+- title: Chapter 11. Network and Web Programming
+  page: 455
+  options: /XYZ , None , 588.58502 , None
+  children:
+  - title: 11.1. Interacting with HTTP Services As a Client
+    page: 455
+    options: /XYZ , None , 352.40698 , None
+    children:
+    - title: Problem
+      page: 455
+      options: /XYZ , None , 321.91144 , None
+    - title: Solution
+      page: 455
+      options: /XYZ , None , 263.11392 , None
+    - title: Discussion
+      page: 458
+      options: /XYZ , None , 497.74438 , None
+  - title: 11.2. Creating a TCP Server
+    page: 459
+    options: /XYZ , None , 278.71045 , None
+    children:
+    - title: Problem
+      page: 459
+      options: /XYZ , None , 248.21494 , None
+    - title: Solution
+      page: 459
+      options: /XYZ , None , 189.41742 , None
+    - title: Discussion
+      page: 460
+      options: /XYZ , None , 177.74472 , None
+  - title: 11.3. Creating a UDP Server
+    page: 463
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 463
+      options: /XYZ , None , 577.00452 , None
+    - title: Solution
+      page: 463
+      options: /XYZ , None , 518.20703 , None
+    - title: Discussion
+      page: 463
+      options: /XYZ , None , 142.94336 , None
+  - title: 11.4. Generating a Range of IP Addresses from a CIDR Address
+    page: 465
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 465
+      options: /XYZ , None , 559.59808 , None
+    - title: Solution
+      page: 465
+      options: /XYZ , None , 488.20059 , None
+    - title: Discussion
+      page: 466
+      options: /XYZ , None , 318.41086 , None
+  - title: 11.5. Creating a Simple REST-Based Interface
+    page: 467
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 467
+      options: /XYZ , None , 577.00452 , None
+    - title: Solution
+      page: 467
+      options: /XYZ , None , 505.60699 , None
+    - title: Discussion
+      page: 469
+      options: /XYZ , None , 512.81091 , None
+  - title: 11.6. Implementing a Simple Remote Procedure Call with XML-RPC
+    page: 472
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 472
+      options: /XYZ , None , 559.59808 , None
+    - title: Solution
+      page: 472
+      options: /XYZ , None , 500.8006 , None
+    - title: Discussion
+      page: 473
+      options: /XYZ , None , 451.61087 , None
+  - title: 11.7. Communicating Simply Between Interpreters
+    page: 474
+    options: /XYZ , None , 380.24347 , None
+    children:
+    - title: Problem
+      page: 474
+      options: /XYZ , None , 349.74796 , None
+    - title: Solution
+      page: 474
+      options: /XYZ , None , 290.95044 , None
+    - title: Discussion
+      page: 475
+      options: /XYZ , None , 338.01138 , None
+  - title: 11.8. Implementing Remote Procedure Calls
+    page: 476
+    options: /XYZ , None , 498.44348 , None
+    children:
+    - title: Problem
+      page: 476
+      options: /XYZ , None , 467.948 , None
+    - title: Solution
+      page: 476
+      options: /XYZ , None , 409.15048 , None
+    - title: Discussion
+      page: 478
+      options: /XYZ , None , 447.27789 , None
+  - title: 11.9. Authenticating Clients Simply
+    page: 479
+    options: /XYZ , None , 147.97687 , None
+    children:
+    - title: Problem
+      page: 479
+      options: /XYZ , None , 117.48135 , None
+    - title: Solution
+      page: 480
+      options: /XYZ , None , 607.5 , None
+    - title: Discussion
+      page: 481
+      options: /XYZ , None , 325.01086 , None
+  - title: 11.10. Adding SSL to Network Services
+    page: 482
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 482
+      options: /XYZ , None , 577.00452 , None
+    - title: Solution
+      page: 482
+      options: /XYZ , None , 518.20703 , None
+    - title: Discussion
+      page: 486
+      options: /XYZ , None , 329.14438 , None
+  - title: 11.11. Passing a Socket File Descriptor Between Processes
+    page: 488
+    options: /XYZ , None , 288.50992 , None
+    children:
+    - title: Problem
+      page: 488
+      options: /XYZ , None , 258.0144 , None
+    - title: Solution
+      page: 488
+      options: /XYZ , None , 174.01688 , None
+    - title: Discussion
+      page: 490
+      options: /XYZ , None , 436.54437 , None
+  - title: 11.12. Understanding Event-Driven I/O
+    page: 493
+    options: /XYZ , None , 289.04346 , None
+    children:
+    - title: Problem
+      page: 493
+      options: /XYZ , None , 258.54794 , None
+    - title: Solution
+      page: 493
+      options: /XYZ , None , 187.15042 , None
+    - title: Discussion
+      page: 497
+      options: /XYZ , None , 607.5 , None
+  - title: 11.13. Sending and Receiving Large Arrays
+    page: 499
+    options: /XYZ , None , 341.30991 , None
+    children:
+    - title: Problem
+      page: 499
+      options: /XYZ , None , 310.81439 , None
+    - title: Solution
+      page: 499
+      options: /XYZ , None , 252.01688 , None
+    - title: Discussion
+      page: 500
+      options: /XYZ , None , 233.14423 , None
+- title: Chapter 12. Concurrency
+  page: 503
+  options: /XYZ , None , 588.58502 , None
+  children:
+  - title: 12.1. Starting and Stopping Threads
+    page: 503
+    options: /XYZ , None , 308.60696 , None
+    children:
+    - title: Problem
+      page: 503
+      options: /XYZ , None , 278.11145 , None
+    - title: Solution
+      page: 503
+      options: /XYZ , None , 231.91394 , None
+    - title: Discussion
+      page: 505
+      options: /XYZ , None , 287.21085 , None
+  - title: 12.2. Determining If a Thread Has Started
+    page: 506
+    options: /XYZ , None , 359.64398 , None
+    children:
+    - title: Problem
+      page: 506
+      options: /XYZ , None , 329.14847 , None
+    - title: Solution
+      page: 506
+      options: /XYZ , None , 282.95096 , None
+    - title: Discussion
+      page: 507
+      options: /XYZ , None , 345.94437 , None
+  - title: 12.3. Communicating Between Threads
+    page: 509
+    options: /XYZ , None , 344.30997 , None
+    children:
+    - title: Problem
+      page: 509
+      options: /XYZ , None , 313.81445 , None
+    - title: Solution
+      page: 509
+      options: /XYZ , None , 255.01694 , None
+    - title: Discussion
+      page: 512
+      options: /XYZ , None , 156.34415 , None
+  - title: 12.4. Locking Critical Sections
+    page: 515
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 515
+      options: /XYZ , None , 577.00452 , None
+    - title: Solution
+      page: 515
+      options: /XYZ , None , 518.20703 , None
+    - title: Discussion
+      page: 515
+      options: /XYZ , None , 159.07684 , None
+  - title: 12.5. Locking with Deadlock Avoidance
+    page: 518
+    options: /XYZ , None , 490.70999 , None
+    children:
+    - title: Problem
+      page: 518
+      options: /XYZ , None , 460.21448 , None
+    - title: Solution
+      page: 518
+      options: /XYZ , None , 401.41699 , None
+    - title: Discussion
+      page: 520
+      options: /XYZ , None , 173.7442 , None
+  - title: 12.6. Storing Thread-Specific State
+    page: 522
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 522
+      options: /XYZ , None , 577.00452 , None
+    - title: Solution
+      page: 522
+      options: /XYZ , None , 518.20703 , None
+    - title: Discussion
+      page: 523
+      options: /XYZ , None , 394.54437 , None
+  - title: 12.7. Creating a Thread Pool
+    page: 523
+    options: /XYZ , None , 170.11285 , None
+    children:
+    - title: Problem
+      page: 523
+      options: /XYZ , None , 139.61734 , None
+    - title: Solution
+      page: 524
+      options: /XYZ , None , 607.5 , None
+    - title: Discussion
+      page: 525
+      options: /XYZ , None , 142.47766 , None
+  - title: 12.8. Performing Simple Parallel Programming
+    page: 527
+    options: /XYZ , None , 472.04352 , None
+    children:
+    - title: Problem
+      page: 527
+      options: /XYZ , None , 441.548 , None
+    - title: Solution
+      page: 527
+      options: /XYZ , None , 382.75049 , None
+    - title: Discussion
+      page: 529
+      options: /XYZ , None , 305.81088 , None
+  - title: 12.9. Dealing with the GIL (and How to Stop Worrying About It)
+    page: 531
+    options: /XYZ , None , 325.24393 , None
+    children:
+    - title: Problem
+      page: 531
+      options: /XYZ , None , 277.34201 , None
+    - title: Solution
+      page: 531
+      options: /XYZ , None , 218.54449 , None
+    - title: Discussion
+      page: 533
+      options: /XYZ , None , 117.27765 , None
+  - title: 12.10. Defining an Actor Task
+    page: 534
+    options: /XYZ , None , 146.17685 , None
+    children:
+    - title: Problem
+      page: 534
+      options: /XYZ , None , 115.68134 , None
+    - title: Solution
+      page: 535
+      options: /XYZ , None , 607.5 , None
+    - title: Discussion
+      page: 537
+      options: /XYZ , None , 472.01086 , None
+  - title: 12.11. Implementing Publish/Subscribe Messaging
+    page: 538
+    options: /XYZ , None , 299.24347 , None
+    children:
+    - title: Problem
+      page: 538
+      options: /XYZ , None , 268.74796 , None
+    - title: Solution
+      page: 538
+      options: /XYZ , None , 209.95044 , None
+    - title: Discussion
+      page: 540
+      options: /XYZ , None , 556.6109 , None
+  - title: 12.12. Using Generators As an Alternative to Threads
+    page: 542
+    options: /XYZ , None , 555.51001 , None
+    children:
+    - title: Problem
+      page: 542
+      options: /XYZ , None , 525.01453 , None
+    - title: Solution
+      page: 542
+      options: /XYZ , None , 466.21698 , None
+    - title: Discussion
+      page: 548
+      options: /XYZ , None , 313.61087 , None
+  - title: 12.13. Polling Multiple Thread Queues
+    page: 549
+    options: /XYZ , None , 177.97836 , None
+    children:
+    - title: Problem
+      page: 549
+      options: /XYZ , None , 147.48285 , None
+    - title: Solution
+      page: 550
+      options: /XYZ , None , 607.5 , None
+    - title: Discussion
+      page: 551
+      options: /XYZ , None , 221.01129 , None
+  - title: 12.14. Launching a Daemon Process on Unix
+    page: 552
+    options: /XYZ , None , 274.64349 , None
+    children:
+    - title: Problem
+      page: 552
+      options: /XYZ , None , 244.14798 , None
+    - title: Solution
+      page: 552
+      options: /XYZ , None , 185.35046 , None
+    - title: Discussion
+      page: 555
+      options: /XYZ , None , 574.01086 , None
+- title: Chapter 13. Utility Scripting and System Administration
+  page: 557
+  options: /XYZ , None , 588.58502 , None
+  children:
+  - title: 13.1. Accepting Script Input via Redirection, Pipes, or Input Files
+    page: 557
+    options: /XYZ , None , 339.80698 , None
+    children:
+    - title: Problem
+      page: 557
+      options: /XYZ , None , 291.90506 , None
+    - title: Solution
+      page: 557
+      options: /XYZ , None , 207.90753 , None
+    - title: Discussion
+      page: 558
+      options: /XYZ , None , 520.01086 , None
+  - title: 13.2. Terminating a Program with an Error Message
+    page: 558
+    options: /XYZ , None , 269.17944 , None
+    children:
+    - title: Problem
+      page: 558
+      options: /XYZ , None , 238.68393 , None
+    - title: Solution
+      page: 558
+      options: /XYZ , None , 179.88641 , None
+    - title: Discussion
+      page: 559
+      options: /XYZ , None , 607.5 , None
+  - title: 13.3. Parsing Command-Line Options
+    page: 559
+    options: /XYZ , None , 478.46857 , None
+    children:
+    - title: Problem
+      page: 559
+      options: /XYZ , None , 447.97308 , None
+    - title: Solution
+      page: 559
+      options: /XYZ , None , 388.50909 , None
+    - title: Discussion
+      page: 561
+      options: /XYZ , None , 568.54437 , None
+  - title: 13.4. Prompting for a Password at Runtime
+    page: 562
+    options: /XYZ , None , 469.91101 , None
+    children:
+    - title: Problem
+      page: 562
+      options: /XYZ , None , 439.4155 , None
+    - title: Solution
+      page: 562
+      options: /XYZ , None , 368.01797 , None
+    - title: Discussion
+      page: 562
+      options: /XYZ , None , 166.28732 , None
+  - title: 13.5. Getting the Terminal Size
+    page: 563
+    options: /XYZ , None , 494.177 , None
+    children:
+    - title: Problem
+      page: 563
+      options: /XYZ , None , 463.68152 , None
+    - title: Solution
+      page: 563
+      options: /XYZ , None , 417.48401 , None
+    - title: Discussion
+      page: 563
+      options: /XYZ , None , 272.81989 , None
+  - title: 13.6. Executing an External Command and Getting Its Output
+    page: 563
+    options: /XYZ , None , 187.05496 , None
+    children:
+    - title: Problem
+      page: 563
+      options: /XYZ , None , 139.15305 , None
+    - title: Solution
+      page: 564
+      options: /XYZ , None , 607.5 , None
+    - title: Discussion
+      page: 564
+      options: /XYZ , None , 129.37036 , None
+  - title: 13.7. Copying or Moving Files and Directories
+    page: 565
+    options: /XYZ , None , 286.44397 , None
+    children:
+    - title: Problem
+      page: 565
+      options: /XYZ , None , 255.94846 , None
+    - title: Solution
+      page: 565
+      options: /XYZ , None , 197.15094 , None
+    - title: Discussion
+      page: 566
+      options: /XYZ , None , 228.74475 , None
+  - title: 13.8. Creating and Unpacking Archives
+    page: 567
+    options: /XYZ , None , 226.44385 , None
+    children:
+    - title: Problem
+      page: 567
+      options: /XYZ , None , 195.94833 , None
+    - title: Solution
+      page: 567
+      options: /XYZ , None , 149.75082 , None
+    - title: Discussion
+      page: 568
+      options: /XYZ , None , 484.47787 , None
+  - title: 13.9. Finding Files by Name
+    page: 568
+    options: /XYZ , None , 366.17993 , None
+    children:
+    - title: Problem
+      page: 568
+      options: /XYZ , None , 335.68442 , None
+    - title: Solution
+      page: 568
+      options: /XYZ , None , 264.2869 , None
+    - title: Discussion
+      page: 569
+      options: /XYZ , None , 553.01093 , None
+  - title: 13.10. Reading Configuration Files
+    page: 570
+    options: /XYZ , None , 554.84351 , None
+    children:
+    - title: Problem
+      page: 570
+      options: /XYZ , None , 524.34802 , None
+    - title: Solution
+      page: 570
+      options: /XYZ , None , 465.55048 , None
+    - title: Discussion
+      page: 571
+      options: /XYZ , None , 199.54422 , None
+  - title: 13.11. Adding Logging to Simple Scripts
+    page: 573
+    options: /XYZ , None , 352.51047 , None
+    children:
+    - title: Problem
+      page: 573
+      options: /XYZ , None , 322.01495 , None
+    - title: Solution
+      page: 573
+      options: /XYZ , None , 275.81744 , None
+    - title: Discussion
+      page: 575
+      options: /XYZ , None , 330.41089 , None
+  - title: 13.12. Adding Logging to Libraries
+    page: 576
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 576
+      options: /XYZ , None , 577.00452 , None
+    - title: Solution
+      page: 576
+      options: /XYZ , None , 518.20703 , None
+    - title: Discussion
+      page: 576
+      options: /XYZ , None , 208.0094 , None
+  - title: 13.13. Making a Stopwatch Timer
+    page: 577
+    options: /XYZ , None , 249.24396 , None
+    children:
+    - title: Problem
+      page: 577
+      options: /XYZ , None , 218.74844 , None
+    - title: Solution
+      page: 577
+      options: /XYZ , None , 172.55093 , None
+    - title: Discussion
+      page: 579
+      options: /XYZ , None , 543.41089 , None
+  - title: 13.14. Putting Limits on Memory and CPU Usage
+    page: 579
+    options: /XYZ , None , 232.31339 , None
+    children:
+    - title: Problem
+      page: 579
+      options: /XYZ , None , 201.81787 , None
+    - title: Solution
+      page: 579
+      options: /XYZ , None , 143.02036 , None
+    - title: Discussion
+      page: 580
+      options: /XYZ , None , 271.47781 , None
+  - title: 13.15. Launching a Web Browser
+    page: 581
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 581
+      options: /XYZ , None , 577.00452 , None
+    - title: Solution
+      page: 581
+      options: /XYZ , None , 518.20703 , None
+    - title: Discussion
+      page: 582
+      options: /XYZ , None , 594.41089 , None
+- title: Chapter 14. Testing, Debugging, and Exceptions
+  page: 583
+  options: /XYZ , None , 588.58502 , None
+  children:
+  - title: 14.1. Testing Output Sent to stdout
+    page: 583
+    options: /XYZ , None , 339.14047 , None
+    children:
+    - title: Problem
+      page: 583
+      options: /XYZ , None , 308.64496 , None
+    - title: Solution
+      page: 583
+      options: /XYZ , None , 223.98093 , None
+    - title: Discussion
+      page: 584
+      options: /XYZ , None , 357.8114 , None
+  - title: 14.2. Patching Objects in Unit Tests
+    page: 585
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 585
+      options: /XYZ , None , 577.00452 , None
+    - title: Solution
+      page: 585
+      options: /XYZ , None , 505.60699 , None
+    - title: Discussion
+      page: 586
+      options: /XYZ , None , 607.5 , None
+  - title: 14.3. Testing for Exceptional Conditions in Unit Tests
+    page: 588
+    options: /XYZ , None , 422.91147 , None
+    children:
+    - title: Problem
+      page: 588
+      options: /XYZ , None , 392.41595 , None
+    - title: Solution
+      page: 588
+      options: /XYZ , None , 346.21844 , None
+    - title: Discussion
+      page: 589
+      options: /XYZ , None , 574.01086 , None
+  - title: 14.4. Logging Test Output to a File
+    page: 590
+    options: /XYZ , None , 568.10999 , None
+    children:
+    - title: Problem
+      page: 590
+      options: /XYZ , None , 537.6145 , None
+    - title: Solution
+      page: 590
+      options: /XYZ , None , 478.81702 , None
+    - title: Discussion
+      page: 590
+      options: /XYZ , None , 199.68637 , None
+  - title: 14.5. Skipping or Anticipating Test Failures
+    page: 591
+    options: /XYZ , None , 359.11194 , None
+    children:
+    - title: Problem
+      page: 591
+      options: /XYZ , None , 328.61642 , None
+    - title: Solution
+      page: 591
+      options: /XYZ , None , 282.41891 , None
+    - title: Discussion
+      page: 592
+      options: /XYZ , None , 345.41089 , None
+  - title: 14.6. Handling Multiple Exceptions
+    page: 592
+    options: /XYZ , None , 177.2464 , None
+    children:
+    - title: Problem
+      page: 592
+      options: /XYZ , None , 146.75089 , None
+    - title: Solution
+      page: 593
+      options: /XYZ , None , 607.5 , None
+    - title: Discussion
+      page: 593
+      options: /XYZ , None , 200.36984 , None
+  - title: 14.7. Catching All Exceptions
+    page: 594
+    options: /XYZ , None , 191.14444 , None
+    children:
+    - title: Problem
+      page: 594
+      options: /XYZ , None , 160.64893 , None
+    - title: Solution
+      page: 594
+      options: /XYZ , None , 114.45142 , None
+    - title: Discussion
+      page: 595
+      options: /XYZ , None , 510.87787 , None
+  - title: 14.8. Creating Custom Exceptions
+    page: 596
+    options: /XYZ , None , 555.51001 , None
+    children:
+    - title: Problem
+      page: 596
+      options: /XYZ , None , 525.01453 , None
+    - title: Solution
+      page: 596
+      options: /XYZ , None , 466.21698 , None
+    - title: Discussion
+      page: 596
+      options: /XYZ , None , 176.88629 , None
+  - title: 14.9. Raising an Exception in Response to Another Exception
+    page: 598
+    options: /XYZ , None , 533.90997 , None
+    children:
+    - title: Problem
+      page: 598
+      options: /XYZ , None , 486.00809 , None
+    - title: Solution
+      page: 598
+      options: /XYZ , None , 427.21057 , None
+    - title: Discussion
+      page: 600
+      options: /XYZ , None , 607.5 , None
+  - title: 14.10. Reraising the Last Exception
+    page: 600
+    options: /XYZ , None , 262.20251 , None
+    children:
+    - title: Problem
+      page: 600
+      options: /XYZ , None , 231.707 , None
+    - title: Solution
+      page: 600
+      options: /XYZ , None , 184.84299 , None
+    - title: Discussion
+      page: 601
+      options: /XYZ , None , 523.01086 , None
+  - title: 14.11. Issuing Warning Messages
+    page: 601
+    options: /XYZ , None , 362.91251 , None
+    children:
+    - title: Problem
+      page: 601
+      options: /XYZ , None , 332.41699 , None
+    - title: Solution
+      page: 601
+      options: /XYZ , None , 273.61948 , None
+    - title: Discussion
+      page: 602
+      options: /XYZ , None , 444.34436 , None
+  - title: 14.12. Debugging Basic Program Crashes
+    page: 603
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 603
+      options: /XYZ , None , 577.00452 , None
+    - title: Solution
+      page: 603
+      options: /XYZ , None , 530.80701 , None
+    - title: Discussion
+      page: 605
+      options: /XYZ , None , 607.5 , None
+  - title: 14.13. Profiling and Timing Your Program
+    page: 605
+    options: /XYZ , None , 363.13556 , None
+    children:
+    - title: Problem
+      page: 605
+      options: /XYZ , None , 332.64005 , None
+    - title: Solution
+      page: 605
+      options: /XYZ , None , 273.84253 , None
+    - title: Discussion
+      page: 607
+      options: /XYZ , None , 182.61124 , None
+  - title: 14.14. Making Your Programs Run Faster
+    page: 608
+    options: /XYZ , None , 428.24347 , None
+    children:
+    - title: Problem
+      page: 608
+      options: /XYZ , None , 397.74799 , None
+    - title: Solution
+      page: 608
+      options: /XYZ , None , 338.95044 , None
+    - title: Discussion
+      page: 612
+      options: /XYZ , None , 443.67789 , None
+- title: Chapter 15. C Extensions
+  page: 615
+  options: /XYZ , None , 588.58502 , None
+  children:
+  - title: 15.1. Accessing C Code Using ctypes
+    page: 617
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 617
+      options: /XYZ , None , 577.00452 , None
+    - title: Solution
+      page: 617
+      options: /XYZ , None , 505.60699 , None
+    - title: Discussion
+      page: 619
+      options: /XYZ , None , 431.21088 , None
+  - title: 15.2. Writing a Simple C Extension Module
+    page: 623
+    options: /XYZ , None , 434.77698 , None
+    children:
+    - title: Problem
+      page: 623
+      options: /XYZ , None , 404.28149 , None
+    - title: Solution
+      page: 623
+      options: /XYZ , None , 345.48395 , None
+    - title: Discussion
+      page: 626
+      options: /XYZ , None , 484.6109 , None
+  - title: 15.3. Writing an Extension Function That Operates on Arrays
+    page: 627
+    options: /XYZ , None , 380.64395 , None
+    children:
+    - title: Problem
+      page: 627
+      options: /XYZ , None , 332.74203 , None
+    - title: Solution
+      page: 627
+      options: /XYZ , None , 261.34451 , None
+    - title: Discussion
+      page: 629
+      options: /XYZ , None , 574.01086 , None
+  - title: 15.4. Managing Opaque Pointers in C Extension Modules
+    page: 630
+    options: /XYZ , None , 467.2435 , None
+    children:
+    - title: Problem
+      page: 630
+      options: /XYZ , None , 436.74799 , None
+    - title: Solution
+      page: 630
+      options: /XYZ , None , 377.9505 , None
+    - title: Discussion
+      page: 631
+      options: /XYZ , None , 182.21072 , None
+  - title: 15.5. Defining and Exporting C APIs from Extension Modules
+    page: 632
+    options: /XYZ , None , 278.84488 , None
+    children:
+    - title: Problem
+      page: 632
+      options: /XYZ , None , 230.94296 , None
+    - title: Solution
+      page: 632
+      options: /XYZ , None , 146.94543 , None
+    - title: Discussion
+      page: 636
+      options: /XYZ , None , 293.21082 , None
+  - title: 15.6. Calling Python from C
+    page: 637
+    options: /XYZ , None , 379.70996 , None
+    children:
+    - title: Problem
+      page: 637
+      options: /XYZ , None , 349.21445 , None
+    - title: Solution
+      page: 637
+      options: /XYZ , None , 277.81693 , None
+    - title: Discussion
+      page: 640
+      options: /XYZ , None , 427.01089 , None
+  - title: 15.7. Releasing the GIL in C Extensions
+    page: 643
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 643
+      options: /XYZ , None , 577.00452 , None
+    - title: Solution
+      page: 643
+      options: /XYZ , None , 505.60699 , None
+    - title: Discussion
+      page: 643
+      options: /XYZ , None , 318.40948 , None
+  - title: 15.8. Mixing Threads from C and Python
+    page: 643
+    options: /XYZ , None , 175.57803 , None
+    children:
+    - title: Problem
+      page: 643
+      options: /XYZ , None , 145.08252 , None
+    - title: Solution
+      page: 644
+      options: /XYZ , None , 607.5 , None
+    - title: Discussion
+      page: 644
+      options: /XYZ , None , 270.63641 , None
+  - title: 15.9. Wrapping C Code with Swig
+    page: 645
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 645
+      options: /XYZ , None , 577.00452 , None
+    - title: Solution
+      page: 645
+      options: /XYZ , None , 518.20703 , None
+    - title: Discussion
+      page: 647
+      options: /XYZ , None , 174.94415 , None
+  - title: 15.10. Wrapping Existing C Code with Cython
+    page: 650
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 650
+      options: /XYZ , None , 577.00452 , None
+    - title: Solution
+      page: 650
+      options: /XYZ , None , 518.20703 , None
+    - title: Discussion
+      page: 653
+      options: /XYZ , None , 607.5 , None
+  - title: 15.11. Using Cython to Write High-Performance Array Operations
+    page: 656
+    options: /XYZ , None , 208.17789 , None
+    children:
+    - title: Problem
+      page: 656
+      options: /XYZ , None , 160.27597 , None
+    - title: Solution
+      page: 657
+      options: /XYZ , None , 607.5 , None
+    - title: Discussion
+      page: 658
+      options: /XYZ , None , 229.54428 , None
+  - title: 15.12. Turning a Function Pointer into a Callable
+    page: 661
+    options: /XYZ , None , 607.5 , None
+    children:
+    - title: Problem
+      page: 661
+      options: /XYZ , None , 577.00452 , None
+    - title: Solution
+      page: 661
+      options: /XYZ , None , 518.20703 , None
+    - title: Discussion
+      page: 661
+      options: /XYZ , None , 246.3429 , None
+  - title: 15.13. Passing NULL-Terminated Strings to C Libraries
+    page: 662
+    options: /XYZ , None , 271.70996 , None
+    children:
+    - title: Problem
+      page: 662
+      options: /XYZ , None , 241.21445 , None
+    - title: Solution
+      page: 662
+      options: /XYZ , None , 169.81693 , None
+    - title: Discussion
+      page: 665
+      options: /XYZ , None , 607.5 , None
+  - title: 15.14. Passing Unicode Strings to C Libraries
+    page: 666
+    options: /XYZ , None , 316.57697 , None
+    children:
+    - title: Problem
+      page: 666
+      options: /XYZ , None , 286.08145 , None
+    - title: Solution
+      page: 666
+      options: /XYZ , None , 227.28394 , None
+    - title: Discussion
+      page: 668
+      options: /XYZ , None , 567.87787 , None
+  - title: 15.15. Converting C Strings to Python
+    page: 671
+    options: /XYZ , None , 555.51001 , None
+    children:
+    - title: Problem
+      page: 671
+      options: /XYZ , None , 525.01453 , None
+    - title: Solution
+      page: 671
+      options: /XYZ , None , 478.81702 , None
+    - title: Discussion
+      page: 672
+      options: /XYZ , None , 607.5 , None
+  - title: 15.16. Working with C Strings of Dubious Encoding
+    page: 672
+    options: /XYZ , None , 466.00159 , None
+    children:
+    - title: Problem
+      page: 672
+      options: /XYZ , None , 435.5061 , None
+    - title: Solution
+      page: 672
+      options: /XYZ , None , 338.90857 , None
+    - title: Discussion
+      page: 673
+      options: /XYZ , None , 189.41077 , None
+  - title: 15.17. Passing Filenames to C Extensions
+    page: 675
+    options: /XYZ , None , 497.11047 , None
+    children:
+    - title: Problem
+      page: 675
+      options: /XYZ , None , 466.61499 , None
+    - title: Solution
+      page: 675
+      options: /XYZ , None , 407.81747 , None
+    - title: Discussion
+      page: 676
+      options: /XYZ , None , 488.21088 , None
+  - title: 15.18. Passing Open Files to C Extensions
+    page: 676
+    options: /XYZ , None , 390.51245 , None
+    children:
+    - title: Problem
+      page: 676
+      options: /XYZ , None , 360.01694 , None
+    - title: Solution
+      page: 676
+      options: /XYZ , None , 301.21942 , None
+    - title: Discussion
+      page: 677
+      options: /XYZ , None , 555.27789 , None
+  - title: 15.19. Reading File-Like Objects from C
+    page: 677
+    options: /XYZ , None , 264.51389 , None
+    children:
+    - title: Problem
+      page: 677
+      options: /XYZ , None , 234.01837 , None
+    - title: Solution
+      page: 677
+      options: /XYZ , None , 174.55435 , None
+    - title: Discussion
+      page: 679
+      options: /XYZ , None , 426.34439 , None
+  - title: 15.20. Consuming an Iterable from C
+    page: 680
+    options: /XYZ , None , 379.97745 , None
+    children:
+    - title: Problem
+      page: 680
+      options: /XYZ , None , 349.48193 , None
+    - title: Solution
+      page: 680
+      options: /XYZ , None , 290.68442 , None
+    - title: Discussion
+      page: 681
+      options: /XYZ , None , 563.81091 , None
+  - title: 15.21. Diagnosing Segmentation Faults
+    page: 681
+    options: /XYZ , None , 464.11298 , None
+    children:
+    - title: Problem
+      page: 681
+      options: /XYZ , None , 433.61749 , None
+    - title: Solution
+      page: 681
+      options: /XYZ , None , 362.21997 , None
+    - title: Discussion
+      page: 682
+      options: /XYZ , None , 607.5 , None
+- title: Appendix A. Further Reading
+  page: 683
+  options: /XYZ , None , 588.58502 , None
+  children:
+  - title: Online Resources
+    page: 683
+    options: /XYZ , None , 308.60696 , None
+  - title: Books for Learning Python
+    page: 684
+    options: /XYZ , None , 459.87701 , None
+  - title: Advanced Books
+    page: 684
+    options: /XYZ , None , 272.13055 , None
+- title: Index
+  page: 685
+  options: /XYZ , None , 584.73499 , None
+- title: About the Authors
+  page: 706
+  options: /XYZ , None , 607.5 , None
