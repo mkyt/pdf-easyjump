@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 from argparse import ArgumentParser
+import os.path
 import yaml
 from pikepdf import Pdf, Array, Name, String, Dictionary, OutlineItem
 
@@ -55,15 +56,15 @@ def set_pagelabels(doc, page_labels):
         pn = label['start'] - 1 # page index 1-based -> 0-based
         d = {}
         if 'style' in label and label['style'] != 'none':
-            d[Name.S] = Name('/'+label['style'])
+            d['/S'] = Name('/'+label['style'])
         if 'prefix' in label:
-            d[Name.P] = label['prefix']
+            d['/P'] = label['prefix']
         if 'initial_count' in label:
-            d[Name.St] = label['initial_count']
+            d['/St'] = label['initial_count']
         obj = Dictionary(d)
         arr.append(pn)
         arr.append(obj)
-    obj = Dictionary({Name.Nums : Array(arr)})
+    obj = Dictionary({'/Nums' : Array(arr)})
     doc.root[Name.PageLabels] = obj
 
 
@@ -149,12 +150,13 @@ def get_outlines(doc):
 
 def set_outlines(doc, outlines):
 
-    def dict_to_outline_item(d):
+    def dict_to_outline_item(item):
         oi = OutlineItem(item['title'], item['page'] - 1)
         if 'children' in item:
             for child in item['children']:
                 ci = dict_to_outline_item(child)
                 oi.children.append(ci)
+        return oi
 
     with doc.open_outline() as doc_outline:
         n = len(doc_outline.root)
@@ -163,14 +165,15 @@ def set_outlines(doc, outlines):
                 del doc_outline.root[i]
         for item in outlines:
             oi = dict_to_outline_item(item)
-            doc_outline.append(oi)
+            doc_outline.root.append(oi)
 
 
 def main(in_files, out_file):
     if len(in_files) == 1:
         # extract from in_file
         if out_file is None:
-            out_file = 'output.yaml'
+            base, _ = os.path.splitext(in_files[0])
+            out_file = base + '.yaml'
         doc = Pdf.open(in_files[0])
         obj = {}
         pl = get_pagelabels(doc)
@@ -183,8 +186,6 @@ def main(in_files, out_file):
         yaml.dump(obj, open(out_file, 'w', encoding='utf-8'), default_flow_style=False, sort_keys=False, allow_unicode=True)
     elif len(in_files) == 2:
         # embed outline and/or page labels
-        if out_file is None:
-            out_file = 'output.pdf'
         yml = None
         pdf = None
         for f in in_files:
@@ -196,7 +197,10 @@ def main(in_files, out_file):
             print('YAML is not specified')
         if pdf is None:
             print('PDF is not specified')
-        obj = yaml.load(open(yml, encoding='utf-8'))
+        if out_file is None:
+            base, _ = os.path.splitext(pdf)
+            out_file = base + '-modified.pdf'
+        obj = yaml.safe_load(open(yml, encoding='utf-8'))
         doc = Pdf.open(pdf)
         if 'outlines' in obj:
             ol = obj['outlines']
